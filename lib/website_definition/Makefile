@@ -57,8 +57,12 @@ html/%.xhtml: site_data/%.xml site_data/pagedata.xml src/gen_page.xsl temp/site.
 	xsltproc  src/gen_page.xsl $< >$@
 
 deploy: 
+	-rm -f ../../priv/static/*.xhtml
 	cp -r html/* ../../priv/static
 
 clean:
 	-rm -f html/*.xhtml
+	-rm -f html/*.xml
+	-rm -f html/*~
+	-rm -f html/*#
 	-rm -f temp/*
