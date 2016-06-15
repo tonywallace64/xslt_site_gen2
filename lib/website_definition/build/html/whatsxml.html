@@ -1,0 +1,116 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:xf="http://www.w3.org/2002/xforms"><head><meta name="Keywords" content="xml"/><title>What is XML</title><meta name="viewport" content="width=device-width, initial-scale=1"/><style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  a:link {color:#FFFFFF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</style></head><body><nav><h2>Contact</h2><ul><li>Phone: 09 238 0407</li><li><a href="mailto:greenrose@xtra.co.nz">Email: greenrose@xtra.co.nz</a></li><li xmlns=""><a href="whatsxml.html">whatsxml</a></li><li xmlns=""><a href=""/></li><li xmlns=""><a href="xpath.html">xpath</a></li><li xmlns=""><a href="xslt.html">xslt</a></li><li xmlns=""><a href="static.html">static site</a></li></ul></nav><section><a href=""/><br/><content xmlns="">
+<p>XML which is an abbreviation of eXtensible markup language,
+is a <a href="need to put url here">standard</a> for formatting data.</p>
+<p>An XML file has the following structure:</p>
+<ol>
+<li>An XML header</li>
+<li>An optional list of processing instructions</li>
+<li>A single root element holding all data</li>
+</ol>
+<p>The XML header item is recommended, not required by the standard.  
+Processing instructions
+can be used to great effect on occasion.  However both of these data
+elements make it impossible to include XML files inside other XML files
+with xinclude.  Simlarly the single root requirement makes a flat
+file consisting of a sequence of data trees not an XML file.  Thus
+it is impossible to extend an XML file by simply appending data to
+the end. That seems silly to me.  If the standard required a root
+element surely the header and processing instructions could have
+been part of the the header, and then the structure would have been
+regular and xinclude would have worked! Enough complaining!  It is what it is. Inspite of its faults the fact that exist in the standard,
+the fact we have a standarda standard exists allows standard tools that make us all
+richer.  These tools can also help us work around the formats
+shortcomings.</p>
+<h2>Example1: An XML file</h2>
+<p>This example shows most features of xml, including:
+<ul>
+<li>an xml declaration</li>
+<li>a comment</li>
+<li>a root element containing an attribute/value pair</li>
+<li>a nested element</li>
+</ul>
+</p>
+Copy the following xml and open in your web browser:
+
+&lt;?xml version=1.0?&gt;
+&lt;!-- This is a comment --&gt; 
+&lt;root attribute="attributevalue"&gt;
+This text is in the &amp;lt;root&amp;gt; element
+&lt;tag-with-close/&gt;
+&lt;/root&gt;
+
+<h2>Example2: XML with repeating structures</h2>
+<p>When storing an invoice in a relational database
+repeating structures such as line items are normalised
+into a separate table.  XML allows related data to be
+stored together.</p>
+
+&lt;?xml version=1.0?&gt;
+&lt;invoice&gt;
+  &lt;invnum&gt;3021&lt;/invnum&gt;
+  &lt;invdate&gt;2015-03-22&lt;/invdate&gt;
+  &lt;customer&gt;123&lt;/customer&gt;
+  &lt;total&gt;5.01&lt;/total&gt;
+  &lt;items&gt;
+    &lt;item&gt;&lt;id&gt;1021&lt;/id&gt;&lt;name&gt;widget&lt;/name&gt;&lt;qty&gt;2&lt;/qty&gt;&lt;price&gt;1.00&lt;/price&gt;&lt;linetot&gt;2.00&lt;/linetot&gt;
+    &lt;item&gt;&lt;id&gt;1&lt;/id&gt;&lt;name&gt;unl91&lt;/name&gt;&lt;qty&gt;3.02&lt;/qty&gt;&lt;price&gt;0.999&lt;/price&gt;&lt;linetot&gt;3.01&lt;/linetot&gt;
+  &lt;/items&gt;
+&lt;/invoice&gt;
+
+<h2>Example3: Nested XML structure</h2>
+<p>Some problems are naturally tree structured.  In this case
+web pages can contain web pages.  The nesting of the xml
+relecting the nesting of the pages.</p>
+
+&lt;?xml version=1.0?&gt;
+&lt;site&gt;
+  &lt;url&gt;www.mysite.com&lt;/url&gt;
+  &lt;pages&gt;
+    &lt;page&gt;
+      &lt;url&gt;index.html&lt;/url&gt;
+    &lt;/page&gt;
+    &lt;page&gt;
+      &lt;url&gt;contact.html&lt;/url&gt;
+    &lt;/page&gt;
+    &lt;page&gt;
+      &lt;url&gt;content.html&lt;/url&gt;
+      &lt;pages&gt;
+	&lt;page&gt;
+	  &lt;url&gt;products.html&lt;/url&gt;
+	&lt;/page&gt;
+	&lt;page&gt;
+	  &lt;url&gt;shop.html&lt;/url&gt;
+	&lt;/page&gt;
+      &lt;/pages&gt;
+    &lt;/page&gt;
+  &lt;/pages&gt;
+  &lt;pages&gt;
+    &lt;page&gt;
+      &lt;url&gt;admin.html&lt;/url&gt;
+    &lt;/page&gt;
+  &lt;/pages&gt;
+&lt;/site&gt;
+
+
+
+</content></section></body></html>

@@ -1,0 +1,2158 @@
+<?xml version="1.0"?>
+<!--Generated web pages-->
+<site_pages xmlns:ax="abc" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    index.xhtml
+    mesh
+    Phone: 027 2203796
+    Email: tony@tony.gen.nz
+    
+    <ax:file filename="index.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>Main</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Main</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"><xhtml:img xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" width="100%" left="250px" src="images/hw.png"/></xhtml:a><xhtml:br/><xhtml:h1 xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Tony's Main Page</xhtml:h1><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">This website is currently documenting procedures
+for making itself and keeping itself updated.  At
+the moment this is limited to static sites but as
+extra facilities are added these too will be documented
+here. </xhtml:p><xhtml:ol xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<xhtml:li><xhtml:a href="intro.xhtml">Generating a wesite with XSLT</xhtml:a></xhtml:li>
+<xhtml:li><xhtml:a href="publickey.xhtml">Contact me securely</xhtml:a></xhtml:li>
+<xhtml:li><xhtml:a href="addwebsite.xhtml">Admin guide</xhtml:a></xhtml:li>
+<xhtml:h3>Change Log</xhtml:h3>
+<xhtml:h4>10 June 2015</xhtml:h4>
+<xhtml:ul>
+  <xhtml:li>Set declarations for xhtml</xhtml:li>
+  <xhtml:li>Add xhtml namespace prefixes for all markup elements</xhtml:li>
+</xhtml:ul>
+<xhtml:h4>11 June 2015</xhtml:h4>
+<xhtml:ul>
+  <xhtml:li>Change code colour for better layout</xhtml:li>
+  <xhtml:li>Put project under source control</xhtml:li>
+</xhtml:ul>
+
+</xhtml:ol></xhtml:section></xhtml:body></xhtml:html></ax:file>
+  
+    index.xhtml
+    mesh
+    Phone: 027 2203796
+    Email: tony@tony.gen.nz
+    
+    <ax:file filename="intro.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>XML Sojourner's Journey</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="intro.xhtml">intro</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="whatsxml.xhtml">whatsxml</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xmlproc.xhtml">Xml processing</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="namespaces.xhtml">namespaces</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xpath.xhtml">xpath</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xslt.xhtml">xslt</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="static.xhtml">static site</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="validation.xhtml">Validation</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="splitpages.xhtml">split_pages</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="insert.xhtml">insert_content</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="build.xhtml">build</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="futuredev.xhtml">FutureDev</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="rest.xhtml">REST Resources</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"><xhtml:img xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" width="100%" left="250px" src="images/hw.png"/></xhtml:a><xhtml:br/><xh:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">This is the introduction page to my xml diary.  It is not
+a diary in the sense of a chronology.  It is not a book in
+that it will never be complete.  It is not a blog as I ask
+no feedback, look for none and expect none.</xh:p><xh:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Rather it documents my journeys in XML land.  One of
+the frontiers of the web.  Many have gone before me and
+blazed the trail, but alas it is a confusing place for
+newcommers, and I hope that this work, incomplete (and
+possibly in places inaccurate) may help the sojourners
+who wander this trail after me.</xh:p><xh:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The question remains as to why would someone choose
+this journey?</xh:p><xh:ul xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+  <xh:li><xh:em>XML is standard.</xh:em> It is a language understood
+throughout the computing world.</xh:li>
+<xh:li><xh:em>XML is expressive.</xh:em> XML naturally expresses complex
+data structures and is useful for a huge number of applications
+from word processors to graphics editiors.</xh:li>
+<xh:li><xh:em>Standard XML tools</xh:em> allow complex analysis of the
+data contained in XML files, and the transformation of XML
+data between formats</xh:li>
+<xh:li><xh:em>Communication.</xh:em> XML is used to communicate data
+between systems for e-commerce.</xh:li>
+<xh:li><xh:em>XRX </xh:em>XML can facilitate the storage of data without
+transforming it to another form as is usual in relation database
+applications.</xh:li>
+</xh:ul><xh:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Yes there is gold in this land, but it comes not easily.
+In my wanderings I have frequently found if I did not
+understand a concept futher progress in a different area
+became impossible, and that there is an order in which
+topics are to be followed, so this journey is a trail
+and the reader is advised to follow the track in order
+to not get lost.</xh:p><xh:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Consequently there is no attempt in this work to deal
+with any of these technologies in a comprehensive manner.
+That work has been done by others.  Rather it is an attempt
+to guide through these technologies in a systematic way.
+</xh:p><xh:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Indeed my journey has been guided by a vision, the same
+vision that prompted Dan Cleary and others with XRX.  To
+move away from the continual construction and deconstruction
+of data structures as usual with application development.
+To utilise the Web as the main interface.  To use standard
+tools  that are free.  To keep related data together rather than normalised
+into separate tables. To build systems that are maintainable,
+scalable, and parallel processor friendly.</xh:p><xh:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">This quest is far from over, but I gladly share my wanderings.</xh:p></xhtml:section></xhtml:body></xhtml:html></ax:file>
+    <ax:file filename="whatsxml.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>What is XML</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="intro.xhtml">intro</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="whatsxml.xhtml">whatsxml</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xmlproc.xhtml">Xml processing</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="namespaces.xhtml">namespaces</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xpath.xhtml">xpath</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xslt.xhtml">xslt</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="static.xhtml">static site</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="validation.xhtml">Validation</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="splitpages.xhtml">split_pages</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="insert.xhtml">insert_content</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="build.xhtml">build</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="futuredev.xhtml">FutureDev</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="rest.xhtml">REST Resources</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"><xhtml:img xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" width="100%" left="250px" src="images/hw.png"/></xhtml:a><xhtml:br/><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">XML which is an abbreviation of eXtensible markup language,
+is a <xhtml:a href="need to put url here">standard</xhtml:a> for formatting data.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">An XML file has the following structure:</xhtml:p><xhtml:ol xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<xhtml:li>An XML header</xhtml:li>
+<xhtml:li>An optional list of processing instructions</xhtml:li>
+<xhtml:li>A single root element holding all data</xhtml:li>
+</xhtml:ol><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The XML header item is recommended, not required by the standard.  
+Processing instructions
+can be used to great effect on occasion.  Elements contain an attribute
+list and child elements.  The format is simple and widely understood,
+this simple structure does however have its shortcomings.</xhtml:p><xhtml:ul xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+  <xhtml:li>Despite XML being tree structured, the headers and processing instructions prevent XML subtrees being merged to form larger trees in a simple fashion.</xhtml:li>
+  <xhtml:li>As an XML document has a single root, data cannot be appended by simply appending to the end of the file.  The new data must instead be included within the root element and the entire tree rewritten.</xhtml:li></xhtml:ul><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Example1: An XML file</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">This example shows most features of xml, including:</xhtml:p><xhtml:ul xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<xhtml:li>an xml declaration</xhtml:li>
+<xhtml:li>a comment</xhtml:li>
+<xhtml:li>a root element containing an attribute/value pair</xhtml:li>
+<xhtml:li>a nested element</xhtml:li>
+</xhtml:ul><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+Copy the following xml into a file with and open the file in your web browser:</xhtml:p><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+
+&lt;?xml version=1.0?&gt;
+&lt;!-- This is a comment --&gt; 
+&lt;root attribute="attributevalue"&gt;
+   This text is in the root element
+   &lt;tag-with-close/&gt;
+&lt;/root&gt;
+
+</xhtml:pre><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Example2: XML with repeating structures</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">When storing an invoice in a relational database
+repeating structures such as line items are normalised
+into a separate table.  XML allows related data to be
+stored together.</xhtml:p><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+
+&lt;?xml version=1.0?&gt;
+&lt;invoice&gt;
+  &lt;invnum&gt;3021&lt;/invnum&gt;
+  &lt;invdate&gt;2015-03-22&lt;/invdate&gt;
+  &lt;customer&gt;123&lt;/customer&gt;
+  &lt;total&gt;5.01&lt;/total&gt;
+  &lt;items&gt;
+    &lt;item&gt;&lt;id&gt;1021&lt;/id&gt;&lt;name&gt;widget&lt;/name&gt;&lt;qty&gt;2&lt;/qty&gt;&lt;price&gt;1.00&lt;/price&gt;&lt;linetot&gt;2.00&lt;/linetot&gt;
+    &lt;item&gt;&lt;id&gt;1&lt;/id&gt;&lt;name&gt;unl91&lt;/name&gt;&lt;qty&gt;3.02&lt;/qty&gt;&lt;price&gt;0.999&lt;/price&gt;&lt;linetot&gt;3.01&lt;/linetot&gt;
+  &lt;/items&gt;
+&lt;/invoice&gt;
+
+</xhtml:pre><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Example3: Nested XML structure</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Some problems are naturally tree structured.  In this case
+web pages can contain web pages.  The nesting of the xml
+relecting the nesting of the pages.</xhtml:p><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+
+&lt;?xml version=1.0?&gt;
+&lt;site&gt;
+  &lt;url&gt;www.mysite.com&lt;/url&gt;
+  &lt;pages&gt;
+    &lt;page&gt;
+      &lt;url&gt;index.xhtml&lt;/url&gt;
+    &lt;/page&gt;
+    &lt;page&gt;
+      &lt;url&gt;contact.xhtml&lt;/url&gt;
+    &lt;/page&gt;
+    &lt;page&gt;
+      &lt;url&gt;content.xhtml&lt;/url&gt;
+      &lt;pages&gt;
+	&lt;page&gt;
+	  &lt;url&gt;products.xhtml&lt;/url&gt;
+	&lt;/page&gt;
+	&lt;page&gt;
+	  &lt;url&gt;shop.xhtml&lt;/url&gt;
+	&lt;/page&gt;
+      &lt;/pages&gt;
+    &lt;/page&gt;
+  &lt;/pages&gt;
+  &lt;pages&gt;
+    &lt;page&gt;
+      &lt;url&gt;admin.xhtml&lt;/url&gt;
+    &lt;/page&gt;
+  &lt;/pages&gt;
+&lt;/site&gt;
+
+</xhtml:pre></xhtml:section></xhtml:body></xhtml:html></ax:file>
+    <ax:file filename="xmlproc.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>xml processing</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="intro.xhtml">intro</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="whatsxml.xhtml">whatsxml</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xmlproc.xhtml">Xml processing</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="namespaces.xhtml">namespaces</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xpath.xhtml">xpath</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xslt.xhtml">xslt</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="static.xhtml">static site</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="validation.xhtml">Validation</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="splitpages.xhtml">split_pages</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="insert.xhtml">insert_content</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="build.xhtml">build</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="futuredev.xhtml">FutureDev</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="rest.xhtml">REST Resources</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"><xhtml:img xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" width="100%" left="250px" src="images/hw.png"/></xhtml:a><xhtml:br/><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">XML processors of which there are three common types, SAX, DOM, XSLT
+tokenise an XML document and these tokens are processed by the user application, not the raw text file.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">SAX and DOM are libraries that make the content of the XML document
+available to a host language such as Java.  DOM is used in conjuction
+with JavaScript in AJAX web pages.  XSLT is an XML based language for
+processing XML documents.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The API's for each language are different and independent, but they
+exhibit strong simiarities.  XSLT is an important part of many XML tool
+chains.  It can be used to convert a document (eg docbook) to pdf through
+XSLT-FO.  XSLT delegates the interrogation of the XML document to the
+XPATH language.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">XPATH is also used as an XML interrogation language by XQUERY. XPATH expressions operate on a tree of nodes.  DOM offers such a tree.  An XPATH processor may operate on a DOM tree, or any other representation it chooses.  Proficiency with both XSLT and XQUERY requires a sound proficiency in XPATH.  The node types of an xml document (as defined by XPATH) are:
+<xhtml:ul>
+
+<xhtml:li>
+<xhtml:p>root nodes</xhtml:p>
+</xhtml:li>
+
+<xhtml:li>
+<xhtml:p>element nodes</xhtml:p>
+</xhtml:li>
+
+<xhtml:li>
+<xhtml:p>text nodes</xhtml:p>
+</xhtml:li>
+
+<xhtml:li>
+<xhtml:p>attribute nodes</xhtml:p>
+</xhtml:li>
+
+<xhtml:li>
+<xhtml:p>namespace nodes</xhtml:p>
+</xhtml:li>
+
+<xhtml:li>
+<xhtml:p>processing instruction nodes</xhtml:p>
+</xhtml:li>
+
+<xhtml:li>
+<xhtml:p>comment nodes</xhtml:p>
+</xhtml:li>
+
+</xhtml:ul>
+
+</xhtml:p></xhtml:section></xhtml:body></xhtml:html></ax:file>
+    <ax:file filename="namespaces.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>Namespaces</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="intro.xhtml">intro</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="whatsxml.xhtml">whatsxml</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xmlproc.xhtml">Xml processing</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="namespaces.xhtml">namespaces</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xpath.xhtml">xpath</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xslt.xhtml">xslt</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="static.xhtml">static site</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="validation.xhtml">Validation</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="splitpages.xhtml">split_pages</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="insert.xhtml">insert_content</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="build.xhtml">build</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="futuredev.xhtml">FutureDev</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="rest.xhtml">REST Resources</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"><xhtml:img xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" width="100%" left="250px" src="images/hw.png"/></xhtml:a><xhtml:br/><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">This, the third stop in our sojourn in XML is about name spaces.
+Up until now we have been inventing tagnames that suit us without
+regard to what other are doing.  In order to share data around the
+web everyone needs to be able to make their names unique, and this
+is the purpose of namespaces.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">In XML we leaverage off the uniqueness of URI identifiers to
+form a scheme where XML authors can be confident of the uniqueness
+of the names they use.  These unique names are called expanded names.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The abstract for the XML Namespaces standard succintly puts it: "XML namespaces provide a simple method for qualifying element and attribute names used in Extensible Markup Language documents by associating them with namespaces identified by IRI references."</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">These namespaces are defined by xmlns attributes and attributes from the xmlns namespace.  For example:
+
+&lt;root xmlns:xf="http://www.w3.org/2002/xforms"
+associates all tag and attributes starting with "xf:" to the xforms namespace.
+This marks such tags and attributes as being part of the xforms.  An xforms
+model element is thus specified as:
+
+&lt;xf:model&gt;
+</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">These namespaces allow different xml languages with different semantics
+to be freely mixed in a single document.  To use xforms still requires an xforms processor to be installed on your system.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The name xf:model is an example of a <xhtml:em>qualified name</xhtml:em>.  A unique identifier is generated by expanding the prefix (in this case "xf") by its associated string (in this case "http://www.w3.org/2002/xforms".  The resulting name is called an <em>expanded name</em>.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">This namespace mechanism allows xml tools to be extended in a modular fashion.</xhtml:p></xhtml:section></xhtml:body></xhtml:html></ax:file>
+    <ax:file filename="xpath.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>xpath</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="intro.xhtml">intro</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="whatsxml.xhtml">whatsxml</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xmlproc.xhtml">Xml processing</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="namespaces.xhtml">namespaces</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xpath.xhtml">xpath</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xslt.xhtml">xslt</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="static.xhtml">static site</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="validation.xhtml">Validation</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="splitpages.xhtml">split_pages</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="insert.xhtml">insert_content</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="build.xhtml">build</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="futuredev.xhtml">FutureDev</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="rest.xhtml">REST Resources</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"><xhtml:img xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" width="100%" left="250px" src="images/hw.png"/></xhtml:a><xhtml:br/><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Introduction</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+At the last page Xml namespaces were introduced as a way of incorporating
+various xml vocabularies into our documents.  It is time to meet the first
+of these vocabularies, xpath, a tool for navigating through xml documents.</xhtml:p><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">What is XPATH?</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms"><xhtml:em>Xpath is a language for finding related nodes in an xml document.</xhtml:em></xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Xml documents are read into software, and the various parts of the language
+are parsed into nodes.</xhtml:p><xhtml:h3 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Xpath Nodes</xhtml:h3><xhtml:ul xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<xhtml:li>elements</xhtml:li>
+<xhtml:li>attributes</xhtml:li>
+<xhtml:li>comments</xhtml:li>
+<xhtml:li>whitespace</xhtml:li>
+<xhtml:li>processing instructions</xhtml:li>
+<xhtml:li>text</xhtml:li>
+</xhtml:ul><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The relationships between
+these nodes are stored in a structure known as an xml infoset. XPATH is a language for navigating 
+an xml infoset.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">XPATH is therefore an xml query language and is itself part of other XML languages
+such as XSLT, XQUERY an XPOINTER.  Proficiency with XPATH is therefore a prerequisite
+for proficiency in these other languages.</xhtml:p><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">XPATH axes</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">To understand xpath it is necessary to have in mind two models of the xml document at the same time:
+<xhtml:ul>
+<xhtml:li>Xml document as a tree</xhtml:li>
+<xhtml:li>Xml document as a list</xhtml:li>
+</xhtml:ul></xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+If you take any xml document and print it out, and a set of coloured highlighters.  Select a node and call it the current node colour it yellow.  This is the <xhtml:em>self</xhtml:em> axis.  Firstly considering the document as a tree, this node will have a parent node, which will in turn have a parent node up until the root node is reached.  Colour each of these pink. In xpath, this is the <em>ancestor</em> axis.  The current node may have children.  Colour these, and their decendents blue, this is the <em>decendent axis</em>.  The uncoloured nodes that are above the current document constitute the <em>preceeding axis</em>, and those uncoloured nodes following the current node are the <em>following axis</em>.  Finally those other nodes with the same parent which are preceeding the current node are <em>preceeding-sibling axis</em>.  The other nodes with the same parent but going down the page are the <em>following-sibling axis</em>.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">There are other axes defined in the standard, these are easily derivable from those listed above.</xhtml:p><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">axis ordering</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">In every case the position on the axis is related to how far the node is from the current node.  The parent node is position 1 on the ancestor axis, the grandparent position 2 on the ancestor axis.  These positions are in document or reverse document order.  Document order is how close the node is on the printed page going from top to bottom.  Reverse document order is going on the page from bottom to top. Preceeding and ancestor nodes are in reverse document order, following and decendent nodes in document order.</xhtml:p><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">location paths</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">An xpath expression may result in a node set.  That is a set of qualifying nodes. The expression to find all decendents of the current node is "decendents::node()".  The axis comes first, and then a node test which in this case returns any type of node whatsoever.  A location expression can contain several parts each separated by /.  Each part can be filtered by an expression in [].</xhtml:p><example xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+  <title>Find closest ancestor page which has a url node as it's child</title>
+  <ax:content>ancestor::page[child::url][position()=1]</ax:content>
+</example><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Abbreviated syntax</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The abbreviated syntax is as follows:</xhtml:p><xhtml:ul xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<xhtml:li><xhtml:p>omitting an axis is short for "child::"</xhtml:p></xhtml:li>
+<xhtml:li><xhtml:p>"." represents "self::node()"</xhtml:p></xhtml:li>
+<xhtml:li><xhtml:p>".." represents "parent::node()"</xhtml:p></xhtml:li>
+<xhtml:li><xhtml:p>"@" represents "attribute::"</xhtml:p></xhtml:li>
+<xhtml:li><xhtml:p>"//" represents "decendant-or-self::"</xhtml:p></xhtml:li>
+<xhtml:li><xhtml:p>"[number]" represents "[position()=number]"</xhtml:p></xhtml:li>
+</xhtml:ul><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Thus the previous example could be written "ancestor::page[url][1]"</xhtml:p></xhtml:section></xhtml:body></xhtml:html></ax:file>
+    <ax:file filename="xslt.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>xslt</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="intro.xhtml">intro</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="whatsxml.xhtml">whatsxml</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xmlproc.xhtml">Xml processing</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="namespaces.xhtml">namespaces</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xpath.xhtml">xpath</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xslt.xhtml">xslt</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="static.xhtml">static site</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="validation.xhtml">Validation</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="splitpages.xhtml">split_pages</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="insert.xhtml">insert_content</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="build.xhtml">build</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="futuredev.xhtml">FutureDev</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="rest.xhtml">REST Resources</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"><xhtml:img xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" width="100%" left="250px" src="images/hw.png"/></xhtml:a><xhtml:br/><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">What is xslt?</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">XSLT is an XML language designed to convert XML documents to other XML formats,
+expecially XSL-FO.
+XSL-FO is a stylesheet language, often used for formatting documents
+prior to conversion to PDF. It can be used to generate other formats and is useful to convert
+arbitary XML documents into XHTML.</xhtml:p><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Getting Started</xhtml:h2><example xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<title>A simple XSLT stylesheet</title>
+<ax:content>
+<xhtml:pre>
+
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"&gt;
+  &lt;xsl:template match="text()"/&gt;
+  &lt;xsl:template match='/site'&gt;
+    &lt;xsl:for-each select="./pages/page"&gt;
+      &lt;xsl:choose&gt;
+	&lt;xsl:when test="ancestor::pages[navtype='mesh']"&gt;
+	  Found
+	&lt;/xsl:when&gt;
+      &lt;/xsl:choose&gt;
+    &lt;/xsl:for-each&gt;
+  &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+
+</xhtml:pre>
+<xhtml:p>The first line declares this XML to be an xslt stylesheet.  Note the use of the namespace.  The second line rule overrides default text node processing.  The default is to output text nodes.  This rule says do nothing. Note the match expressions on the &lt;xsl:template&gt; are xpath expressions.  The third line matches a root element "site". Inside this element this root element becomes the self() or current node.  On the next line the for-each iterates through each /site/pages/page node, each node in turn becoming the self node.  For each page having an ancestor pages element, containing an element navtype whose text value is "mesh", the value Found is output.  The reader should also note the test attribute of the when element is set to an xpath expression.   An empty nodeset is false.</xhtml:p>
+</ax:content>
+</example><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The above example shows the interplay of xml technologies, XPATH, XSLT and 
+XML Namespaces.  Once again it emphasises the need to grasp the basics such
+as Namespaces and XPATH before moving onto other technologies such as XSLT.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">There is much more to XSLT than the simple example shown here, the reader
+is asked to do check out some of the online tutorials and download the XSLT standard.</xhtml:p><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">XSLT processors</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Many XSLT processors only process version 1.0 XSLT, which uses XPATH 1.0.  Support for this standard is however widespread.</xhtml:p><xhtml:ul xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<xhtml:li><xhtml:p>Firefox supports XSLT 1.O.  To transform your document in the browser, insert a processing instruction such as &lt;?xml-stylesheet href="xsltforms/xsltforms.xsl" type="text/xsl"?&gt; at the top of the file.</xhtml:p></xhtml:li>
+<xhtml:li><xhtml:p>The linux command xsltproc also support XSLT 1.0.</xhtml:p></xhtml:li>
+</xhtml:ul></xhtml:section></xhtml:body></xhtml:html></ax:file>
+    <ax:file filename="static.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>static site</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="intro.xhtml">intro</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="whatsxml.xhtml">whatsxml</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xmlproc.xhtml">Xml processing</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="namespaces.xhtml">namespaces</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xpath.xhtml">xpath</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xslt.xhtml">xslt</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="static.xhtml">static site</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="validation.xhtml">Validation</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="splitpages.xhtml">split_pages</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="insert.xhtml">insert_content</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="build.xhtml">build</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="futuredev.xhtml">FutureDev</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="rest.xhtml">REST Resources</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"><xhtml:img xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" width="100%" left="250px" src="images/hw.png"/></xhtml:a><xhtml:br/><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Why  build a site this way?</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">In this lesson we will build a site with static content
+using the tools we have learnt thus far.  Why do it this way?
+A website can be viewed as an organised collection of pages. Editing pages on an adhoc basis can lead to inconsistency
+between pages.  This is partially overcome using shared css 
+stylesheets, however this does not model the relationship 
+between the pages.  Xml can model the relationship between
+the web pages, be they nested or disjoint sets.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">XSLT has been chosen as a templating tool (in preference
+to more modern and widely accepted standards such as django) because
+it is part of multimedia tool kitsnthat allow the production
+of other media formats such as pdf.  This is important in connection
+with publishing as I am also a director for a publishing company.  I
+had intended to style with XSL-FO in preference for CSS for the same
+reason but at the time I built this site I deferred XSL-FO as
+I had enough to learn at the time, and figured it could be
+retrofitted relatively easily.</xhtml:p><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">This site master file</xhtml:h2><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms"><pre>&lt;site xmlns:xf="http://www.w3.org/2002/xforms"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:xhtml="http://www.w3.org/1999/xhtml"&gt;
+  &lt;siteurl&gt;www.tony.gen.nz/xml&lt;/siteurl&gt;
+  &lt;html_dir&gt;html&lt;/html_dir&gt;
+  &lt;resources&gt;
+    &lt;copydir&gt;html&lt;/copydir&gt;
+  &lt;/resources&gt;
+  &lt;file_headers&gt;&lt;![CDATA[&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;]]&gt;&lt;/file_headers&gt;
+  &lt;pages&gt;
+    &lt;homepage&gt;index.xhtml&lt;/homepage&gt;
+    &lt;navtype&gt;mesh&lt;/navtype&gt;
+    &lt;contact-phone&gt;Phone: 027 2203796&lt;/contact-phone&gt;
+    &lt;contact-email&gt;&lt;xhtml:a href="mailto:tony@tony.gen.nz"&gt;Email: tony@tony.gen.nz&lt;/xhtml:a&gt;&lt;/contact-email&gt;
+    &lt;banner_image&gt;&lt;xhtml:img src="images/hw.png" left="250px" width="100%" /&gt;&lt;/banner_image&gt;
+    &lt;xi:include href="index.xml" parse="xml"/&gt;
+  &lt;/pages&gt;
+  &lt;pages&gt;
+    &lt;homepage&gt;index.xhtml&lt;/homepage&gt;
+    &lt;navtype&gt;mesh&lt;/navtype&gt;
+    &lt;contact-phone&gt;Phone: 027 2203796&lt;/contact-phone&gt;
+    &lt;contact-email&gt;&lt;xhtml:a href="mailto:tony@tony.gen.nz"&gt;Email: tony@tony.gen.nz&lt;/xhtml:a&gt;&lt;/contact-email&gt;
+    &lt;banner_image&gt;&lt;xhtml:img src="images/hw.png" left="250px" width="100%" /&gt;&lt;/banner_image&gt;
+    &lt;xi:include href="intro.xml" parse="xml"/&gt;
+    &lt;xi:include href="whatsxml.xml" parse="xml"/&gt;
+    &lt;xi:include href="xmlprocessing.xml" parse="xml"/&gt;
+    &lt;xi:include href="namespaces.xml"  parse="xml"/&gt;
+    &lt;xi:include href="xpath.xml"  parse="xml"/&gt;
+    &lt;xi:include href="xslt.xml" parse="xml"/&gt;
+    &lt;xi:include href="staticsite.xml" parse="xml"/&gt;
+    &lt;xi:include href="validation.xml" parse="xml"/&gt;
+    &lt;xi:include href="splitpages.xml" parse="xml" /&gt;
+    &lt;xi:include href="inserting_content.xml" parse="xml" /&gt;
+    &lt;xi:include href="build.xml" parse="xml" /&gt;
+    &lt;xi:include href="future_development.xml" parse="xml" /&gt;
+    &lt;xi:include href="rest.xml" parse="xml" /&gt;
+  &lt;/pages&gt;
+  &lt;pages&gt;
+    &lt;homepage&gt;index.xhtml&lt;/homepage&gt;
+    &lt;navtype&gt;mesh&lt;/navtype&gt;
+    &lt;contact-phone&gt;Phone: 027 2203796&lt;/contact-phone&gt;
+    &lt;contact-email&gt;&lt;xhtml:a href="mailto:tony@tony.gen.nz"&gt;Email: tony@tony.gen.nz&lt;/xhtml:a&gt;&lt;/contact-email&gt;
+    &lt;banner_image&gt;&lt;img src="images/hw.png" left="250px" width="100%" /&gt;&lt;/banner_image&gt;
+    &lt;xi:include href="publickey.xml" parse="xml" /&gt;
+  &lt;/pages&gt;    
+  &lt;pages&gt;
+    &lt;homepage&gt;index.xhtml&lt;/homepage&gt;
+    &lt;navtype&gt;mesh&lt;/navtype&gt;
+    &lt;contact-phone&gt;Phone: 027 2203796&lt;/contact-phone&gt;
+    &lt;contact-email&gt;&lt;xhtml:a href="mailto:tony@tony.gen.nz"&gt;Email: tony@tony.gen.nz&lt;/xhtml:a&gt;&lt;/contact-email&gt;
+    &lt;banner_image&gt;&lt;img src="images/hw.png" left="250px" width="100%" /&gt;&lt;/banner_image&gt;
+    &lt;xi:include href="addwebsite.xml" parse="xml" /&gt;
+    &lt;xi:include href="admin_todo.xml" parse="xml" /&gt;
+    &lt;xi:include href="admin_troubleshooting.xml" parse="xml" /&gt;
+  &lt;/pages&gt;
+&lt;/site&gt;
+ 
+</pre></xhtml:pre><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">This page definition</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">This is the definition for this page.  Everything about this
+page, its name, its url and all other things required for its
+generation are stored here...</xhtml:p><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms"><pre>&lt;page xmlns:xhtml="http://www.w3.org/1999/xhtml"  xmlns:ax="abc" xmlns:xi="http://www.w3.org/2001/XInclude"&gt;
+&lt;name &gt;static site&lt;/name&gt;
+&lt;title &gt;static site&lt;/title&gt;
+&lt;url &gt;static.xhtml&lt;/url&gt;
+&lt;keywords &gt;xml&lt;/keywords&gt;
+&lt;pageheader &gt;Greenrose&lt;/pageheader&gt;
+&lt;ax:content xmlns:ax="abc"&gt;
+&lt;xhtml:h2&gt;Why  build a site this way?&lt;/xhtml:h2&gt;
+&lt;xhtml:p&gt;In this lesson we will build a site with static content
+using the tools we have learnt thus far.  Why do it this way?
+A website can be viewed as an organised collection of pages. Editing pages on an adhoc basis can lead to inconsistency
+between pages.  This is partially overcome using shared css 
+stylesheets, however this does not model the relationship 
+between the pages.  Xml can model the relationship between
+the web pages, be they nested or disjoint sets.&lt;/xhtml:p&gt;
+&lt;xhtml:p&gt;XSLT has been chosen as a templating tool (in preference
+to more modern and widely accepted standards such as django) because
+it is part of multimedia tool kitsnthat allow the production
+of other media formats such as pdf.  This is important in connection
+with publishing as I am also a director for a publishing company.  I
+had intended to style with XSL-FO in preference for CSS for the same
+reason but at the time I built this site I deferred XSL-FO as
+I had enough to learn at the time, and figured it could be
+retrofitted relatively easily.&lt;/xhtml:p&gt;
+&lt;xhtml:h2 &gt;This site master file&lt;/xhtml:h2&gt;
+&lt;xhtml:pre &gt;&lt;xi:include  parse="text" href="pagedata.xml"&gt;&lt;/xi:include&gt;&lt;/xhtml:pre&gt;
+&lt;xhtml:h2&gt;This page definition&lt;/xhtml:h2&gt;
+
+&lt;xhtml:p&gt;This is the definition for this page.  Everything about this
+page, its name, its url and all other things required for its
+generation are stored here...&lt;/xhtml:p&gt;
+&lt;xhtml:pre&gt;&lt;xi:include href="staticsite.xml" parse="text"/&gt;&lt;/xhtml:pre&gt;
+
+&lt;xhtml:h2 &gt;An XSLT utility file&lt;/xhtml:h2&gt;
+&lt;xhtml:p&gt;
+This is one of two files for converting this site data into html.
+&lt;/xhtml:p&gt;
+&lt;xhtml:pre &gt;&lt;xi:include  parse="text" href="ajw_utils.xsl"&gt;&lt;/xi:include&gt;&lt;/xhtml:pre&gt;&lt;xhtml:h2 &gt;XSLT file to generate HTML&lt;/xhtml:h2&gt;
+&lt;xhtml:p&gt;
+This file generates each web page including navigation bar.
+&lt;/xhtml:p&gt;
+&lt;xhtml:pre&gt;
+&lt;xi:include  href="make_web.xsl" parse="text"&gt;&lt;/xi:include&gt;
+&lt;/xhtml:pre&gt;
+&lt;xhtml:h2&gt;Extra functionality from a SAX parser&lt;/xhtml:h2&gt;
+&lt;xhtml:p&gt;During construction it was found that the xmllint
+xinclude did not work properly with the parse="text" attribute.
+It was also required to find a way to split up the site into
+separate html pages and to store and save into these pages
+processing instructions.&lt;/xhtml:p&gt;
+&lt;xhtml:p&gt;These functions were built using the erlsom SAX parser
+and custom erlang programming.  The disadvantage of going
+to SAX and erlang compared to using XSLT is obvious, the
+program is much longer. However the advantage is that
+using a general purpose language like erlang allows complete
+flexibility.&lt;/xhtml:p&gt;  
+&lt;xhtml:p&gt;Finally, there is a significant amount of code dedicated
+to self testing.&lt;/xhtml:p&gt;
+&lt;xhtml:p&gt;This code is shown here.&lt;/xhtml:p&gt;
+&lt;xhtml:pre&gt;
+&lt;xi:include href="../src/xslt_extn.erl" parse="text" /&gt;
+&lt;/xhtml:pre&gt;
+&lt;xhtml:h2 &gt;A build script to put it all together&lt;/xhtml:h2&gt;
+&lt;xhtml:pre &gt;
+&lt;![CDATA[
+cd site_data
+escript ../ebin/xslt_extn.beam &lt; pagedata.xml &gt; fullsite.xml 2&gt; errors.txt
+xsltproc ../src/make_web2.xsl fullsite.xml &gt; allpages.xml
+escript ../ebin/xslt_extn.beam +finaloutput &lt; allpages.xml 
+mv *.html ../html
+]]&gt;
+&lt;/xhtml:pre&gt;
+&lt;xhtml:p&gt;The first call to xslt_extn includes all the page
+definitions in pagedata.xml creating the file fillsite.xml.
+This data is then put through xslt processing to form a
+new file allpages.xml.  This file has all the webpages
+properly laid out, but all in a single file.  xslt_extn
+is called again to split these files and output the
+processing instructions into the web pages.  Finally
+these html web pages are copied to the websites html directory.
+&lt;/xhtml:p&gt;
+&lt;/ax:content&gt;&lt;/page&gt;
+</pre></xhtml:pre><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">An XSLT utility file</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+This is one of two files for converting this site data into html.
+</xhtml:p><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms"><pre>&lt;!--
+Author:  Tony Wallace
+Contact: tony@tony.gen.nz
+
+Licence: This program is donated to the public domain.
+Freely I have received, freely I give.
+
+I acknowledge the work of the w3 consortium that made
+this work possible.
+--&gt;
+&lt;!--
+A few xslt utilities..
+
+The cdata tag encloses the result of apply templates
+into a ddata tag with a the data quoted by CDATA tags.
+A ddata maintains the CDATA tags through processing
+steps and stops the CDATA tags from disappearing by
+putting ddata into the output cdata-section-elements.
+--&gt;
+&lt;xsl:stylesheet
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+  xmlns:ax="abc"&gt;
+  
+&lt;xsl:output method = "xml"/&gt;
+&lt;xsl:template match="/"&gt;
+  &lt;xsl:apply-templates/&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match="@*"&gt;
+  &lt;xsl:attribute name="{name()}"&gt;
+    &lt;xsl:message&gt;create attribute &lt;xsl:value-of select="name()"/&gt; = 
+         &lt;xsl:value-of select="." /&gt; &lt;/xsl:message&gt;
+    &lt;xsl:value-of select="."/&gt;
+  &lt;/xsl:attribute&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match="text()"&gt;
+  &lt;xsl:value-of select="."/&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match="node()"&gt;
+  &lt;xsl:message&gt;general match &lt;xsl:value-of select="name()"/&gt;&lt;/xsl:message&gt;
+  &lt;xsl:element name="{name()}"&gt;
+    &lt;xsl:apply-templates/&gt;
+  &lt;/xsl:element&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match="text()" name="insertBreaks" mode="crtobr"&gt;
+  &lt;xsl:param name="pText" select="."/&gt;
+
+  &lt;xsl:choose&gt;
+    &lt;xsl:when test="not(contains($pText, '&amp;#xA;'))"&gt;
+      &lt;xsl:copy-of select="$pText"/&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:otherwise&gt;
+      &lt;xsl:value-of select="substring-before($pText, '&amp;#xA;')"/&gt;
+      &lt;br /&gt;
+      &lt;xsl:call-template name="insertBreaks"&gt;
+	&lt;xsl:with-param name="pText" select=
+	  "substring-after($pText, '&amp;#xA;')"/&gt;
+      &lt;/xsl:call-template&gt;
+    &lt;/xsl:otherwise&gt;
+  &lt;/xsl:choose&gt;
+&lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+</pre></xhtml:pre><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">XSLT file to generate HTML</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+This file generates each web page including navigation bar.
+</xhtml:p><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<pre>&lt;?xml version="1.0" encoding="ISO-8859-1"?&gt;
+
+&lt;!--
+Note: xslt 1.0 cannot produce multiple output files
+This will have to be done externally by a shell script
+These directives are put into generated output by
+^filename:&lt;filename&gt;$ lines
+where &lt;filename&gt; is the text of the file name.
+
+This will be done by short erlang program
+through which this data file is piped.
+--&gt;
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+		xmlns:ax="abc" version="1.0"&gt;
+  &lt;xsl:import href="ajw_utils.xsl" /&gt;
+  &lt;xsl:template match='/site'&gt;
+    &lt;xsl:for-each select="./pages"&gt;
+      &lt;xsl:apply-templates/&gt;
+    &lt;/xsl:for-each&gt;
+  &lt;/xsl:template&gt;
+
+&lt;xsl:template match="pages" name="pages-template"&gt;
+  &lt;xsl:for-each select="page"&gt;
+    &lt;xsl:apply-templates/&gt;
+  &lt;/xsl:for-each&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match="page"&gt;
+&lt;!-- Comment in template --&gt;
+filename:&lt;xsl:value-of select="./url" /&gt;
+&lt;xsl:message&gt;File &lt;xsl:value-of select="./url" /&gt;&lt;/xsl:message&gt;
+&lt;xsl:text xml:space="preserve" &gt;
+&lt;/xsl:text&gt;
+&lt;xsl:value-of disable-output-escaping="yes" select="./file_headers" /&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xmlns:xf="http://www.w3.org/2002/xforms"&gt;
+
+&lt;head&gt;
+&lt;meta name="Keywords" content='{keywords}' /&gt;
+&lt;!-- Comment in template --&gt;
+&lt;title&gt;
+  &lt;xsl:value-of select="./title" /&gt;
+&lt;/title&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;
+&lt;!-- for efficiencies sake consider separte template file.
+The advantage over inlining is that it gets loaded once for all pages --&gt;
+&lt;style type="text/css"&gt;
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+&lt;/style&gt;
+  &lt;xsl:copy-of select="./model" /&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;nav&gt;
+  &lt;h2&gt;Contact&lt;/h2&gt;
+  &lt;ul&gt;
+  &lt;li&gt;&lt;xsl:value-of select="ancestor::pages/contact-phone"/&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;xsl:copy-of  select="ancestor::pages/contact-email/*"/&gt;&lt;/li&gt;
+  &lt;xsl:choose&gt;
+    &lt;xsl:when test="ancestor::pages[navtype='mesh']"&gt;
+      &lt;xsl:call-template name="meshindex" /&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:when test="ancestor::pages[navtype='linear']"&gt;
+      &lt;xsl:call-template name="linearindex" /&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:otherwise&gt;
+      Failed to match index template:
+      &lt;xsl:value-of select="ancestor::pages/navtype"/&gt; 
+      Current node is:
+      &lt;xsl:value-of select="string(./node())" /&gt;
+    &lt;/xsl:otherwise&gt;
+  &lt;/xsl:choose&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt; 
+&lt;section&gt;
+  &lt;xsl:message&gt;section&lt;/xsl:message&gt;
+  &lt;a&gt;
+    &lt;xsl:attribute name="href"&gt;
+      &lt;xsl:value-of select="ancestor::pages/homepage"/&gt;
+    &lt;/xsl:attribute&gt;
+    &lt;xsl:copy-of select="ancestor::pages/banner_image/child::img"/&gt;
+  &lt;/a&gt;
+  &lt;br /&gt;
+  &lt;xsl:apply-templates select="./content/*"/&gt;
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+     &lt;xsl:if test="./pages"&gt;
+       &lt;xsl:call-template name="pages-template"/&gt;
+     &lt;/xsl:if&gt;
+  &lt;/xsl:template&gt;
+
+&lt;xsl:template name="meshindex"&gt;
+    &lt;xsl:for-each select="ancestor::pages/page"&gt;
+      &lt;li&gt;
+	&lt;a&gt;
+	&lt;xsl:attribute name="href"&gt;
+	  &lt;xsl:value-of select=".//url"  /&gt;
+	&lt;/xsl:attribute&gt;
+	&lt;xsl:value-of select=".//name" /&gt;
+	&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/xsl:for-each&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template name="linearindex"&gt;
+    Mesh linear index
+    &lt;a href="{(ancestor::pages)[1]/page[1]/url}"&gt;Home&lt;/a&gt;
+    &lt;a href="{ancestor::pages/page[1]}"&gt;Start&lt;/a&gt;
+    &lt;a href="{ancestor::page/preceding-sibling::page[1]/url}"&gt;Previous&lt;/a&gt;
+    &lt;a href="{ancestor::page/following-sibling::page[1]/url}"&gt;Next&lt;/a&gt;
+&lt;/xsl:template&gt;
+
+
+&lt;/xsl:stylesheet&gt;
+</pre>
+</xhtml:pre><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Extra functionality from a SAX parser</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">During construction it was found that the xmllint
+xinclude did not work properly with the parse="text" attribute.
+It was also required to find a way to split up the site into
+separate html pages and to store and save into these pages
+processing instructions.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">These functions were built using the erlsom SAX parser
+and custom erlang programming.  The disadvantage of going
+to SAX and erlang compared to using XSLT is obvious, the
+program is much longer. However the advantage is that
+using a general purpose language like erlang allows complete
+flexibility.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Finally, there is a significant amount of code dedicated
+to self testing.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">This code is shown here.</xhtml:p><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<pre>%%
+% Author:  Tony Wallace
+% Contact: tony@tony.gen.nz
+%
+% Licence: This program is donated to the public domain.
+% Freely I have received, freely I give.
+%
+% I acknowledge the work of the Ericsson Laboratories,
+% the creators of erlang, that made this work possible.
+%%
+-module(xslt_extn).
+
+%% An erlang module to provide:
+%%  xinclude text file inclusion
+%%  Splitting an xml file into several target files
+%%    (like opposite of file inclusion)
+%%  xml_text - this tag allows xml to be stored as escaped text
+%%    and expanded again when "final-output" is performed
+%%
+%% Limitations:
+%%  The xinclude functionality provided here does not conform to the
+%%  standard in that many options provided for in the standard are ignored.
+%% Author: Tony Wallace
+
+
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Modification:
+%%  Copy inscope namespaces to first element after a "file" element.
+%%  This is a consequence of the way XSLT 1.0 handles namespaces, and the requirement
+%%  to split this output into several files.
+%% Author: Tony Wallace
+%% Date: 10 June 2015
+%% ****************************************************
+
+
+-export([main/1,doevent/2,file/1]).
+-export([test/0,test1/0,test2/0,test3/0,test4/0,test5/0,test6/0,test7/0,test8/0,test9/0,test10/0]).
+-include ("erlsom_sax.hrl").
+-record(startElement, {url,tag,prefix,attrlist}).
+-record(endElement,{url,tag,prefix}).
+
+
+%% debugging is provided if the debug_flag is compiled in.
+%% from command line use: erlc -Ddebug_flag xslt_extn
+%% in the erlang shell use: c(xslt_extn, {d,debug_flag}).
+-ifdef(debug_flag).
+-define (DEBUG(X), 
+	 io:format(standard_error,
+		   "&lt;DEBUG module=\"~p\"~n line=\"~p\"~n timestamp=\"~p\"&gt;~n&lt;![CDATA[~p]]&gt;&lt;/DEBUG&gt;~n",
+		   [?MODULE,?LINE,notime,X])).
+-define (DEBUGSTR(X), 
+	 io:format(standard_error,
+		   "&lt;DEBUG module=\"~p\"~n line=\"~p\"~n timestamp=\"~p\"&gt;~n&lt;![CDATA[~s]]&gt;&lt;/DEBUG&gt;~n",
+		   [?MODULE,?LINE,notime,X])).
+
+-define (DEBUG2(Msg,X), 
+	 io:format(standard_error,
+		   "~s = ~p~n",
+		   [Msg,X])).
+
+-else.
+-define (DEBUG(X), void).
+-define (DEBUGSTR(X), void).
+-define (DEBUG2(Msg,X), void).
+-endif.
+-define (PRESERVE_WHITESPACE_DEFAULT,true).
+-define (FINAL_OUTPUT_DEFAULT,false).
+-define (DATA_DIR,site_data).
+default_state() -&gt;
+       #{default_output =&gt; standard_io,
+   	output =&gt; standard_io, 
+	fileinclusions =&gt; ordsets:new(),
+	tests =&gt; [],
+	escape_to_xml =&gt; false,
+	final_output =&gt; ?FINAL_OUTPUT_DEFAULT,
+	preserve_whitespace =&gt; ?PRESERVE_WHITESPACE_DEFAULT,
+	element_stack =&gt; [],
+	output_namespaces =&gt; false,
+	names_in_scope =&gt; []}.    
+
+main(InputParameters) -&gt; 
+    ?DEBUG(InputParameters),
+    State0 = default_state(),
+    State1 = lists:foldl(fun do_param/2,State0,InputParameters),
+    %% discard output until first output file statement
+    {ok,TestList} = maps:find(tests,State1),
+    case TestList == [] of
+	true -&gt;
+	    file:set_cwd(?DATA_DIR),
+	    Str=lists:flatten(read_stdin()),
+	    parseStr(Str,State1);
+	false -&gt;
+	    ?DEBUG(TestList),
+	    [do_test(T) || T &lt;- TestList]
+    end.
+
+file([Filename]) -&gt;
+    file([Filename,[]]);
+file([Filename,InputParameters]) -&gt;
+    %% Purpose: to parse input from a file instead of stdin for testing purposes in erlang shell
+    Dirname = filename:dirname(Filename),
+    SavedDirName = filename:absname("."),
+    State0 = default_state(),
+    State1 = lists:foldl(fun do_param/2,State0,InputParameters),
+    {ok,Str} = file:read_file(Filename),
+    ok=file:set_cwd(Dirname), 
+    parseStr(Str,State1),
+    ok=file:set_cwd(SavedDirName).
+
+do_param("+finaloutput",Si) -&gt;
+    Si#{final_output =&gt; true};
+do_param("-finaloutput",Si) -&gt;
+    Si#{final_output =&gt; false};
+do_param("+preserve_whitespace",Si) -&gt;
+    Si#{preserve_whitespace =&gt; true};
+do_param("-preserve_whitespace",Si) -&gt;
+    Si#{preserve_whitespace =&gt; false};
+do_param(T=[$t,$e,$s,$t|_],Si) -&gt;
+    %% run tests...
+    ?DEBUGSTR("Adding test to test list"),
+    ?DEBUG(T),
+    {ok,OT} = maps:find(tests,Si),
+    Si#{tests =&gt; [T|OT]};
+do_param(Z,_) -&gt;
+    throw("Unknown option "++Z).
+
+
+read_stdin() -&gt;
+    lists:flatten(read_stdin(io:get_chars(standard_io,"",8192))).
+read_stdin(eof) -&gt;
+    [];
+read_stdin(Data) -&gt;
+    [Data|read_stdin(io:get_chars(standard_io,"",8192))].
+
+parseStr(Str,State) -&gt;
+    State2=State#{skip_end_tag =&gt; false, prefix_next_tag=&gt; [] },
+    erlsom:parse_sax(Str,State2,fun doevent/2).
+
+doevent(Event,State) -&gt;
+    ?DEBUG(Event),
+    {ok,OldFD} = maps:find(output,State),
+    %% manage element stack
+    {ok,ES} = maps:find(element_stack,State),
+    {S1,ParentNS,ParentTag,_Ancestors} = 
+	case ES of 
+	    [] -&gt; 
+		case Event of
+		    {startElement,_,_,_,_} -&gt;
+			{State#{element_stack =&gt; [Event | ES]},"","",[]};
+		    {endElement,_,_,_,_} -&gt;
+			throw("Closing tag without an opening tag");
+		    _ -&gt; 
+			io:format(standard_error,"No change to element stack which is empty~n",[]),
+			{State,"","",[]}
+		end;
+	    [{startElement,ParentNS1,ParentTag1,_,_}|Ancestors1] -&gt;
+		case Event of
+		    {startElement,_,_,_,_} -&gt;
+			io:format(standard_error,"Push start element onto stack~n",[]),
+			{State#{element_stack =&gt; [Event | ES]},ParentNS1,ParentTag1,Ancestors1};
+		    {endElement,NS,Tag,_,_} -&gt;
+			case ParentNS1 =:= NS of
+			    true -&gt; ok;
+			    false -&gt; 
+				throw("end element namespace does not start element")
+			end,
+			case Tag =:= ParentTag1 of
+			    true -&gt; ok;
+			    false -&gt;
+				throw("end element tag does not match start element")
+			end,
+			{State#{element_stack =&gt; Ancestors1},ParentNS1,ParentTag1,Ancestors1};
+		    A -&gt;
+			io:format(standard_error,"No change to element stack option2 ~n~p~n",[A]),
+			{State,ParentNS1,ParentTag1,Ancestors1}
+		end
+	end,
+    ?DEBUG2("S1",S1),
+    R = case Event of
+	{startElement,"abc","file",_,AttrList} -&gt;
+	    Filename = attrvalue("filename",AttrList),
+	    S1#{output =&gt; set_output_file(Filename,OldFD), output_namespaces =&gt; true};
+	OT2={startElement,"abc","xml_tags",_,[]} -&gt;
+	    {ok,FinalOutput} = maps:find(final_output,State),
+	    case FinalOutput of
+		true -&gt;
+		    S1#{escape_to_xml =&gt; true};
+	        false -&gt;
+		    {ok,NSDecl2}=maps:find(prefix_next_tag,State),
+		    write_open_tag(OT2,OldFD,NSDecl2),
+		    S1
+	    end;
+	{startElement,
+	 "http://www.w3.org/2001/XInclude","include",_,AttrList} -&gt;
+	    ?DEBUGSTR("xinclude start tag found"),
+	    Filename = attrvalue("href",AttrList),
+	    Parse = attrvalue("parse",AttrList,"xml"),
+	    case Parse of
+		[] -&gt;
+		    insert_file_xml(Filename,S1);
+		"xml" -&gt;
+		    insert_file_xml(Filename,S1);
+		"text" -&gt;
+		    insert_file_text(Filename,OldFD)
+	    end,
+	    S1;
+	OT=#startElement{} -&gt;
+	    ?DEBUGSTR("other start tag found"),
+	    {ok,NSDecl} = case maps:find(output_namespaces,State) of
+		{ok,true} -&gt;
+		    maps:find(names_in_scope,State);
+		{ok,false} -&gt;
+		    maps:find(prefix_next_tag,State)
+	    end,
+	    write_open_tag(OT,OldFD,NSDecl),
+	    S1#{prefix_next_tag =&gt; "",output_namespaces =&gt; false};
+	{endElement,"http://www.w3.org/2001/XInclude","include",_} -&gt;
+	    S1;
+	CT2={endElement,"abc","xml_tags",_} -&gt;
+	    {ok,FinalOutput} = maps:find(final_output,State),
+	    case FinalOutput of
+		true -&gt; 
+		    ok; 
+		false -&gt;
+		    write_close_tag(CT2,OldFD)
+	    end,
+	    S1#{escape_to_xml =&gt; false};
+	{endElement,"abc","file",_} -&gt;
+	    {ok,DefaultOutput} = maps:find(default_output,State),
+	    State#{output =&gt; set_output_file(DefaultOutput,OldFD)};
+	CT = #endElement{} -&gt;
+	    {ok,ET} = maps:find(skip_end_tag,State),
+	    case ET of
+		true -&gt; 
+		    S1#{skip_end_tag =&gt; false};
+		false -&gt;
+		    write_close_tag(CT,OldFD),
+		    S1
+	    end;
+	{characters,Characters} -&gt;
+	    {ok,Esc} = maps:find(escape_to_xml,State),
+	    {ok,FinalOutput} = maps:find(final_output,State),
+	    OutputChars =
+	       case Esc and FinalOutput of
+		   true -&gt;
+		       reverse_escaping(Characters);
+		   false -&gt;
+		       xml_output_escaping(Characters)
+	       end,
+	    write_characters(OutputChars,OldFD),
+	    S1;
+	{processingInstruction,Type,Value} -&gt;
+	    io:fwrite(OldFD,"~s",["&lt;?"++Type++Value++"?&gt;"]),
+	    S1;
+	{startPrefixMapping,Prefix,Url} -&gt;
+	    {ok,PrefixNextTag} = maps:find(prefix_next_tag,State),
+	    {ok,OldNamesInScope} = maps:find(names_in_scope,State),
+	    S1#{
+	      prefix_next_tag =&gt; [{Prefix,Url}|PrefixNextTag], 
+	      names_in_scope =&gt; 
+		  lists:keystore(Prefix,1,OldNamesInScope,{Prefix,Url})};
+	{ignorableWhitespace,String} -&gt;
+	    %% ignore whitespace after a xml_tags tag
+	    {ok,P} = maps:find(preserve_whitespace,State),
+	    PreserveWhitespace = 
+		    P and not
+		       ((ParentTag =="file") and (ParentNS=="abc")),
+	    case PreserveWhitespace of
+		true -&gt;
+		    write_characters(String,OldFD);
+		false -&gt; 
+		    ok
+	    end,
+	    S1;
+	_ -&gt; S1
+    end,
+    ?DEBUG(R),
+    io:format(standard_error,"~n",[]),
+    R.
+    
+attrvalue(AttName,AttrList) -&gt;
+    attrvalue(AttName,AttrList,throw).
+
+attrvalue(AttName,[],throw) -&gt;
+    throw("Attribute "++AttName++" not found");
+attrvalue(_,[],Default) -&gt;
+    Default;
+attrvalue(AttName,[#attribute{localName=AttName,value=Value}|_],_) -&gt;
+    Value;
+attrvalue(AttName,[_|T],Default) -&gt;
+    attrvalue(AttName,T,Default).
+
+-spec set_output_file(string()) -&gt; integer().
+set_output_file(FileName) -&gt;
+    ?DEBUGSTR("setting output directory to"),
+    ?DEBUG(FileName),
+    ?DEBUGSTR("current directory is"),
+    ?DEBUG(filename:absname(".")),
+
+    {ok,F}=file:open(FileName,[write]),
+    F.
+
+set_output_file(FileName,standard_io) -&gt;
+    set_output_file(FileName);
+
+set_output_file(FileName,OldFd) -&gt;
+    ok=file:close(OldFd),
+    {ok,F} = file:open(FileName,[write]),
+    F.
+
+insert_file_xml(Filename,State) -&gt;
+    {ok,I} = maps:find(fileinclusions,State),
+    State2 = case ordsets:is_element(Filename,I) of
+	true -&gt;
+	    throw("recursive xinclude on file "++Filename);
+	false -&gt;
+	    State#{fileinclusions =&gt; ordsets:add_element(Filename,I)}
+    end,
+    Str =
+	case file:read_file(Filename) of
+	    {ok,Str2} -&gt; Str2;
+	    {X,Y} -&gt; 
+		io:format(standard_error,"Could not read file ~s~n",[Filename]),
+		throw({X,Y})
+	end,
+    erlsom:parse_sax(Str,State2,fun doevent/2).
+    
+-spec insert_file_text(string(), integer()) -&gt; ok.
+insert_file_text(Filename,FD) -&gt; 
+    Str1 =
+	case file:read_file(Filename) of
+	    {ok,Str} -&gt; Str;
+	    {error,enoent} -&gt;
+		throw (lists:flatten(io_lib:format("missing file ~s",[Filename])))
+	end,
+    Str2 = xml_output_escaping(binary_to_list(Str1)),
+    io:fwrite(FD,"~s",["&lt;pre&gt;"]),
+    io:fwrite(FD,"~s",[Str2]),
+    io:fwrite(FD,"~s",["&lt;/pre&gt;"]).
+
+xml_parameter_formatting(X) -&gt;
+    xml_output_escaping(lists:flatten(io_lib:write(X))).
+
+xml_output_escaping(S) -&gt;
+    [case X of 
+	$&lt; -&gt; "&amp;lt;"; 
+	$" -&gt; "&amp;quot;"; 
+	$&gt; -&gt; "&amp;gt;"; 
+	$' -&gt; "&amp;apos;"; 
+	$&amp; -&gt; "&amp;amp;"; 
+	_ -&gt; X 
+    end 
+    || X &lt;- S ].
+
+reverse_escaping(S) -&gt;
+    reverse_escaping(S,[]).
+
+reverse_escaping([$&amp;|T],Q) -&gt;
+    reverse_escape(T,[$&amp;],Q);
+reverse_escaping([H|T],Q) -&gt;
+    reverse_escaping(T,[H|Q]);
+reverse_escaping([],Q) -&gt;
+    lists:reverse(Q).
+
+reverse_escape(S,"&amp;lt;",Q) -&gt;
+    reverse_escaping(S,[$&lt;|Q]);
+reverse_escape(S,"&amp;quot;",Q) -&gt;
+    reverse_escaping(S,[$"|Q]);
+reverse_escape(S,"&amp;gt;",Q) -&gt;
+    reverse_escaping(S,[$&gt;|Q]);
+reverse_escape(S,"&amp;apos;",Q) -&gt;
+    reverse_escaping(S,[$'|Q]);
+reverse_escape(S,"&amp;amp;",Q) -&gt;
+    reverse_escaping(S,[$&amp;|Q]);
+reverse_escape([X|S],A,Q) when length(A) &lt; 6 -&gt;
+    reverse_escape(S,A++[X],Q);
+reverse_escape(_,Seq,_) -&gt;
+    throw("Invalid escape sequence "++Seq).
+
+write_open_tag({startElement,_,Tag,"",AttrList},FD,NSDecl) -&gt;
+    ?DEBUGSTR("write_open_tag rule1"),
+    ?DEBUG(NSDecl),
+    io:fwrite(FD,"~s",["&lt;"++Tag++" "]), 
+    ok=write_name_decl(NSDecl,FD),
+    write_attributes(AttrList,FD),
+    io:fwrite(FD,"~s",["&gt;"]);
+
+write_open_tag({startElement,_,Tag,Prefix,AttrList},FD,NSDecl) -&gt;
+    ?DEBUGSTR("write_open_tag rule2"),
+    io:format(standard_error,"write_open_tag ~n  Prefix=~s~n  Tag=~s~n  Attributes=~p~n  Namespaces=~p~n",[Prefix,Tag,AttrList,NSDecl]),
+    io:fwrite(FD,"~s",["&lt;"++Prefix++":"++Tag++" "]), 
+    ok=write_name_decl(NSDecl,FD),
+    write_attributes(AttrList,FD),
+    io:fwrite(FD,"~s",["&gt;"]).
+
+write_close_tag({endElement,_,LocalName,""}, FD)-&gt;
+   io:fwrite(FD,"~s",["&lt;/"++LocalName++"&gt;"]);
+
+write_close_tag({endElement,_,LocalName,Prefix},FD) -&gt;
+    io:fwrite(FD,"~s",["&lt;/"++Prefix++":"++LocalName++"&gt;"]).
+
+write_name_decl([],_) -&gt;
+    ok;
+write_name_decl([{"",Url}|T],FD) -&gt; 
+    NS = " xmlns=\""++Url++"\"",
+    io:format(standard_error,"write_name_decl (no prefix) url=~s~n",[Url]),
+    io:fwrite(FD,"~s",[NS]),
+    write_name_decl(T,FD);
+    
+write_name_decl([{Prefix,Url}|T],FD) -&gt;
+    NS = " xmlns:"++Prefix++"=\""++Url++"\"",
+    ?DEBUG(NS),
+    io:format(standard_error,"write_name_decl prefix=~s url=~s~n",[Prefix,Url]),
+    io:fwrite(FD,"~s",[NS]),
+    write_name_decl(T,FD).
+
+write_attributes([],_) -&gt;  ok;
+write_attributes([{attribute,LocalName,_Uri,Prefix,Value}|T],FD) -&gt;
+    io:fwrite(FD,"~s",[" "++Prefix++LocalName++"=\""++Value++"\""]),
+    write_attributes(T,FD).
+
+write_characters(String,FD) -&gt;
+    io:fwrite(FD,"~s",[String]).
+
+
+do_test("test") -&gt;
+    test();
+do_test("test1") -&gt;
+    test1();
+do_test("test2") -&gt;
+    test2();
+do_test("test3") -&gt;
+    test3();
+do_test("test4") -&gt;
+    test4();
+do_test("test5") -&gt;
+    test5();
+do_test("test6") -&gt;
+    test6();
+do_test("test7") -&gt;
+    test7();
+do_test("test8") -&gt;
+    test8();
+do_test("test9") -&gt;
+    test9();
+do_test("test10") -&gt;
+    test10();
+do_test(X) -&gt;
+    throw("unknown test "++X).
+
+test() -&gt;
+    io:format("testing started, current directory is ~n~s~n",[filename:absname(".")]),
+    test1(),
+    test2(),
+    test3(),
+    test4(),
+    test5(),
+    test6(),
+    test7(),
+    test8(),
+    test9(),
+    test10(),
+    ok.
+
+test1() -&gt;
+    Testid = "test1",
+    InputFile = "test/input/test1.xml",
+    OutputFile = filename:join(["test/output",Testid])++".xml",
+    ErrorFile = filename:join(["test/output",Testid])++".err.txt",
+    Options = "",
+    io:format(standard_error,"~s~n",[Testid]),
+    Cmd = "escript ebin/xslt_extn.beam "++ Options ++" &lt; " 
+	++ InputFile ++ " &gt; " ++ OutputFile
+	++ " 2&gt; " ++ ErrorFile,
+    ?DEBUG(Cmd),
+    os:cmd(Cmd),
+    ok.
+
+test2() -&gt;
+    Testid = "test2",
+    InputFile = "test/input/testinclusion.xml",
+    OutputFile = filename:join(["test/output",Testid])++".xml",
+    ErrorFile = filename:join(["test/output",Testid])++".err.txt",
+    Options = "",
+    io:format(standard_error,"~s~n",[Testid]),
+    Cmd = "escript ebin/xslt_extn.beam "++ Options ++" &lt; " 
+	++ InputFile ++ " &gt; " ++ OutputFile
+	++ " 2&gt; " ++ ErrorFile,
+    ?DEBUG(Cmd),
+    os:cmd(Cmd),
+    ok.
+    
+test3() -&gt;
+    Testid = "test3",
+    InputFile = "test/input/testinclusion2.xml",
+    OutputFile = filename:join(["test/output",Testid])++".xml",
+    ErrorFile = filename:join(["test/output",Testid])++".err.txt",
+    Options = "",
+    io:format(standard_error,"~s~n",[Testid]),
+    Cmd = "escript ebin/xslt_extn.beam "++ Options ++" &lt; " 
+	++ InputFile ++ " &gt; " ++ OutputFile
+	++ " 2&gt; " ++ ErrorFile,
+    ?DEBUG(Cmd),
+    os:cmd(Cmd),
+    ok.
+    
+test4() -&gt;
+    Testid = "test4",
+    InputFile = "test/input/testinclusion3.xml",
+    OutputFile = filename:join(["test/output",Testid])++".xml",
+    ErrorFile = filename:join(["test/output",Testid])++".err.txt",
+    Options = "",
+    Cmd = "escript ebin/xslt_extn.beam "++ Options ++" &lt; " 
+	++ InputFile ++ " &gt; " ++ OutputFile
+	++ " 2&gt; " ++ ErrorFile,
+    ?DEBUG(Cmd),
+    os:cmd(Cmd),
+    ok.
+    
+test5() -&gt;
+    io:format("test5~n"),
+    InputFile = "test/input/test_file_output.xml",
+    OutputFile = "test/output/test5.xml",
+    ErrorFile = "test/output/test5.err.txt",
+    Options = "+finaloutput",
+    Cmd = "escript ebin/xslt_extn.beam "++ Options ++" &lt; " 
+	++ InputFile ++ " &gt; " ++ OutputFile
+	++ " 2&gt; " ++ ErrorFile,
+    ?DEBUG(Cmd),
+    os:cmd(Cmd),
+    ok.
+
+test6() -&gt;
+    Testid = "test6",
+    OutputFile = filename:join(["test/output",Testid])++".xml",
+    io:format(standard_error,"~s~n",[Testid]),
+    Fd = set_output_file(OutputFile),
+    {ok,Str} = file:read_file("test/input/test_namespaces.xml"),
+    S0 = default_state(),
+    parseStr(Str,S0#{output =&gt; Fd}),
+    ok.
+
+test7() -&gt;    
+    Testid = "test7",
+    io:format(standard_error,"~s~n",[Testid]),
+    %% Test recursive xml include
+    InputFile = "test/input/recursive_include_xml.xml",
+    OutputFile = "test/output/test7.xml",
+    ErrorFile = "test/output/test7.err.txt",
+    Options = "",
+    Cmd = "escript ebin/xslt_extn.beam "++ Options ++" &lt; " 
+	++ InputFile ++ " &gt; " ++ OutputFile
+	++ " 2&gt; " ++ ErrorFile,
+    os:cmd(Cmd).
+
+test8() -&gt;
+    %% test reverse escaping
+    "&lt;tag&gt;" = reverse_escaping("&amp;lt;tag&amp;gt;"),
+    "a&lt;tag&gt;b" = reverse_escaping("a&amp;lt;tag&amp;gt;b"),
+    "\"hi\'" = reverse_escaping("&amp;quot;hi&amp;apos;"),
+    "&amp;" = reverse_escaping("&amp;amp;"),
+    ok.
+
+test9() -&gt;
+    %% test xml_tags  +finaloutput (default)
+    %% expect validly formed xml output
+    %% expect tags in escaped format
+    %% test reverse escaping in final output
+    InputFile = "test/input/xml_tags_tag.xml",
+    OutputFile = "test/output/test9.xml",
+    ErrorFile = "test/output/error9.txt",
+    Options = "+finaloutput",
+    %% test relative directories okay
+    true = filelib:is_dir("test/input"),
+    true = filelib:is_dir("test/output"),
+    %% generate test data
+    Data = ["&lt;root xmlns:q=\"abc\"&gt;",
+	     "&lt;q:xml_tags&gt;&amp;lt;tag/&amp;gt;&lt;/q:xml_tags&gt;",
+	     "&lt;/root&gt;"],
+    file:write_file(InputFile,
+		    Data),
+    %% run test
+    ?DEBUGSTR("Test9 running test"),
+    Cmd = "escript ebin/xslt_extn.beam "++Options++" &lt; " 
+	++ InputFile ++ " &gt; " ++ OutputFile
+	++ " 2&gt; " ++ ErrorFile,
+    ?DEBUG(Cmd),
+    os:cmd(Cmd),
+    %% check result
+
+    case filelib:is_regular(OutputFile) of
+	true -&gt;
+	    {ok,R} = file:read_file(OutputFile),
+	    io:format("~s~n",[R]);
+	false -&gt;
+	    throw("test 9 did not generate an output file")
+    end.
+
+test10() -&gt;
+    %% test xml_tags not final output (default)
+    %% expect validly formed xml output
+    %% expect tags in escaped format
+    InputFile = "test/input/xml_tags_tag.xml",
+    OutputFile = "test/output/test10.xml",
+    ErrorFile = "test/output/error10.txt",
+    Options = "",
+    %% test relative directories okay
+    true = filelib:is_dir("test/input"),
+    true = filelib:is_dir("test/output"),
+    %% generate test data
+    Data = ["&lt;root xmlns:q=\"abc\"&gt;",
+	     "&lt;q:xml_tags&gt;&amp;lt;tag/&amp;gt;&lt;/q:xml_tags&gt;",
+	     "&lt;/root&gt;"],
+    file:write_file(InputFile,
+		    Data),
+    %% run test
+    ?DEBUGSTR("Test10 running test"),
+    Cmd = "escript ebin/xslt_extn.beam "++Options++"&lt; " 
+	++ InputFile ++ " &gt; " ++ OutputFile
+	++ " 2&gt; " ++ ErrorFile,
+    ?DEBUG(Cmd),
+    os:cmd(Cmd),
+    %% check result
+
+    case filelib:is_regular(OutputFile) of
+	true -&gt;
+	    {ok,R} = file:read_file(OutputFile),
+	    io:format("~s~n",[R]);
+	false -&gt;
+	    throw("test 10 did not generate an output file")
+    end.
+    
+</pre>
+</xhtml:pre><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">A build script to put it all together</xhtml:h2><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+
+cd site_data
+escript ../ebin/xslt_extn.beam &lt; pagedata.xml &gt; fullsite.xml 2&gt; errors.txt
+xsltproc ../src/make_web2.xsl fullsite.xml &gt; allpages.xml
+escript ../ebin/xslt_extn.beam +finaloutput &lt; allpages.xml 
+mv *.html ../html
+
+</xhtml:pre><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The first call to xslt_extn includes all the page
+definitions in pagedata.xml creating the file fillsite.xml.
+This data is then put through xslt processing to form a
+new file allpages.xml.  This file has all the webpages
+properly laid out, but all in a single file.  xslt_extn
+is called again to split these files and output the
+processing instructions into the web pages.  Finally
+these html web pages are copied to the websites html directory.
+</xhtml:p></xhtml:section></xhtml:body></xhtml:html></ax:file>
+    <ax:file filename="validation.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>Validation</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="intro.xhtml">intro</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="whatsxml.xhtml">whatsxml</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xmlproc.xhtml">Xml processing</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="namespaces.xhtml">namespaces</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xpath.xhtml">xpath</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xslt.xhtml">xslt</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="static.xhtml">static site</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="validation.xhtml">Validation</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="splitpages.xhtml">split_pages</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="insert.xhtml">insert_content</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="build.xhtml">build</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="futuredev.xhtml">FutureDev</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="rest.xhtml">REST Resources</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"><xhtml:img xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" width="100%" left="250px" src="images/hw.png"/></xhtml:a><xhtml:br/><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Xml validation is the process of checking that
+an xml document follows the rules for that type
+of document.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">This validation is essential so that the tools (such as templates)
+can operate on the data.  Validating the xml is a good way of
+preventing errors later.  These validation rules are written in
+some form of formalised language.  Many languages can be used
+for this purpose, for example a validation template could be
+written in xslt and xpath.  Languages commonly used for validation
+include DTD's, XML Schema and RelaxNG.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The choice of validation languages is influenced by the toolsets
+in use, company policy and other considerations.  In this case
+the choice of <xhtml:a href="http://relaxng.org/spec-20011203.html">RelaxNG</xhtml:a>, 
+<xhtml:a href="http://relaxng.org/compact.html">compact syntax</xhtml:a>, 
+was chosen for compatibility
+with the emacs editor.  </xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The relaxng specification for this project is:
+<xhtml:pre>
+<pre>namespace xi="http://www.w3.org/2001/XInclude"
+namespace ax="abc"
+
+start = (sitespec | pagespec)
+
+# This file specifies a website definition
+# The data specified here is combined with
+# the site template to produce the website.
+
+# This data is accessed by xpath, formed
+# into nodesets and inserted into the template
+# at defined places.  The content of the
+# elements is thus fragments of the target language
+# (normally html).
+
+# This file validates the site file
+# and the individual pages.  These individual
+# pages may be in separate files for modularity.
+# For this reason xinclude statements are
+# accepable page definitions in the site file.
+
+anyElement =
+  element * 
+  {
+    (attribute * { text }
+     | text
+     | anyElement) *}
+
+nodeset =
+  (anyElement* | text )  
+
+pagespec =
+(
+  element xi:include
+  {
+    attribute href { text },
+    attribute parse { "xml" }?
+  } |
+  element page
+  {
+    element name { text },
+    element title { text },
+    element url { text },
+    element keywords { text },
+    element pageheader { text },
+    element file_headers { text }?,
+    element header { nodeset }? ,
+    element todo {text}* ,
+    element ax:content { nodeset }
+  }
+)
+
+sitespec =
+  element site 
+  {
+    element siteurl{ text },
+    element html_dir{ text },
+    element resources{
+      element copydir {text}
+    },
+    element file_headers {text},
+    element pages
+    {
+      element homepage { text },
+      element navtype { "mesh" | "list" },
+      element contact-phone {  nodeset  },
+      element contact-email {  nodeset  },
+      element file_headers { text }?,
+      element banner_image { nodeset },
+      pagespec +
+    } +
+  }</pre>
+</xhtml:pre>
+</xhtml:p></xhtml:section></xhtml:body></xhtml:html></ax:file>
+    <ax:file filename="splitpages.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>Split Pages</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="intro.xhtml">intro</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="whatsxml.xhtml">whatsxml</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xmlproc.xhtml">Xml processing</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="namespaces.xhtml">namespaces</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xpath.xhtml">xpath</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xslt.xhtml">xslt</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="static.xhtml">static site</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="validation.xhtml">Validation</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="splitpages.xhtml">split_pages</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="insert.xhtml">insert_content</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="build.xhtml">build</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="futuredev.xhtml">FutureDev</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="rest.xhtml">REST Resources</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"><xhtml:img xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" width="100%" left="250px" src="images/hw.png"/></xhtml:a><xhtml:br/><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Split Pages</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">My original idea was that the pagedata.xml would define the
+relationship between pages, and style information for the site.
+A build process would use this information to build the html
+webpages and each webpage would come out as a separate file.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Upon reflection I recognise that the whole website
+could have been created as a single file and intrapage  
+links used to get around the page.  The purpose of this site
+is to document how it is not what it may have been, and
+this page splitting functionality is part of the existing design</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">As XSLT 1.0 does not have the ability
+to save each page to a separate file, this is done by an external
+script written in Erlang.  Any suitable language could be used
+for this task.</xhtml:p><xhtml:h3 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">splitpages.escript</xhtml:h3><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">In this case the make_web.xsl emits a line starting with
+"filename: FileNameValue" where a new file named FileNameValue
+should be started.
+</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The <xhtml:a href="splitpages.escript">splitpages</xhtml:a> source code can be viewed here.</xhtml:p><xhtml:h3 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The abc:file tag</xhtml:h3><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Another approach to splitting the pages has been to define
+an "file" tag in the "abc" namespace.  The source code here
+is again written in erlang, but this time the input is read by
+the erlsom SAX parser.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Most of the code is merely copying the input xml to the output.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The <xhtml:a href="xslt_extn.erl">xslt_extn</xhtml:a> source code can be read here.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">This code also includes a parse="text" version of xinclude as the xmllint
+version of this appears to be broken.</xhtml:p></xhtml:section></xhtml:body></xhtml:html></ax:file>
+    <ax:file filename="insert.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>Insert Content</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="intro.xhtml">intro</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="whatsxml.xhtml">whatsxml</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xmlproc.xhtml">Xml processing</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="namespaces.xhtml">namespaces</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xpath.xhtml">xpath</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xslt.xhtml">xslt</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="static.xhtml">static site</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="validation.xhtml">Validation</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="splitpages.xhtml">split_pages</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="insert.xhtml">insert_content</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="build.xhtml">build</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="futuredev.xhtml">FutureDev</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="rest.xhtml">REST Resources</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"><xhtml:img xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" width="100%" left="250px" src="images/hw.png"/></xhtml:a><xhtml:br/><xhtml:h2 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Inserting Content</xhtml:h2><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Xml include is used to copy pages into the XML dataset at
+appropriate places.  This is done in the <xhtml:a href="static.html#xslt_extn">xslt_extn</xhtml:a> sax parser.</xhtml:p><xhtml:h3 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Xml insert code</xhtml:h3><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+insert_file_xml(Filename,State) -&gt;
+    {ok,I} = maps:find(fileinclusions,State),
+    State2 = case ordsets:is_element(Filename,I) of
+	true -&gt;
+	    throw("recursive xinclude on file "++Filename);
+	false -&gt;
+	    State#{fileinclusions =&gt; ordsets:add_element(Filename,I)}
+    end,
+    {ok,Str} = file:read_file(Filename),
+    erlsom:parse_sax(Str,State2,fun doevent/2).
+</xhtml:pre><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+The bit of the insert_file_xml that does the work are the two lines at the bottom that read the file and then recursively call the erlsom:parse_sax procedure.  This allows xml file inclusions to be nested.</xhtml:p><xhtml:h3 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Text insert code</xhtml:h3><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+-spec insert_file_text(string(), integer()) -&gt; ok.
+insert_file_text(Filename,FD) -&gt; 
+    {ok,Str} = file:read_file(Filename),
+    Str2 = xml_output_escaping(binary_to_list(Str)),
+    io:fwrite(FD,"~s",["&lt;pre&gt;"]),
+    io:fwrite(FD,"~s",[Str2]),
+    io:fwrite(FD,"~s",["&lt;/pre&gt;"]).
+    </xhtml:pre><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+This code reads the file, escapes all the xml characters, and writes it to output inside some &lt;pre&gt; tags to preserve the file formatting.
+</xhtml:p></xhtml:section></xhtml:body></xhtml:html></ax:file>
+    <ax:file filename="build.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>Building the website</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="intro.xhtml">intro</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="whatsxml.xhtml">whatsxml</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xmlproc.xhtml">Xml processing</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="namespaces.xhtml">namespaces</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xpath.xhtml">xpath</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xslt.xhtml">xslt</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="static.xhtml">static site</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="validation.xhtml">Validation</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="splitpages.xhtml">split_pages</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="insert.xhtml">insert_content</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="build.xhtml">build</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="futuredev.xhtml">FutureDev</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="rest.xhtml">REST Resources</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"><xhtml:img xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" width="100%" left="250px" src="images/hw.png"/></xhtml:a><xhtml:br/><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+Once the website static pages are generated, there is a need to
+build these pages into a webserver for deployment.  The process
+for this is as follows:
+  </xhtml:p><xhtml:ol xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+
+<xhtml:li>Ensure there is a site directory in website/clients</xhtml:li>
+<xhtml:li>Copy the website data into website/clients/&lt;client&gt;/web_root</xhtml:li>
+<xhtml:li>Ensure there is a handler defined in website/siteconf</xhtml:li>
+<xhtml:li>Build the website</xhtml:li>
+<xhtml:li>Test the build</xhtml:li>
+<xhtml:li>Preparing the webserver</xhtml:li>
+<xhtml:li>Install</xhtml:li>
+</xhtml:ol><xhtml:h3 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Writing a siteconf</xhtml:h3><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The following is siteconf file for this website.</xhtml:p><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<pre>-module(tonygenconfig).
+
+-export([routing/2]).
+
+routing(SiteName,DataDir) -&gt;
+    ExtSite = lists:append(["[...]",SiteName]),
+    IdxFile = filename:join(DataDir,"tonygen/web_root/index.html"),
+    StaticDir = filename:join(DataDir,"tonygen/web_root"),
+    true = filelib:is_regular(IdxFile),
+    true = filelib:is_dir(StaticDir),
+    {ExtSite,
+	[
+	 {"/", ajw_cowboy_static, {file, IdxFile}},
+	 {"/[...]", ajw_cowboy_static, {dir, StaticDir}}
+	]
+    }.
+</pre>
+</xhtml:pre><xhtml:h3 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Building a website</xhtml:h3><xhtml:h4 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The initial make</xhtml:h4><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The build is started by executing the command:</xhtml:p><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+  make
+</xhtml:pre><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+In the website code directory.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">This build process uses relx to make an erlang install set.  Including
+all runtime libraries, compiled for the current architecture.  After this the
+content is then added to the build with the command:</xhtml:p><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+  make static-pages
+</xhtml:pre><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The content added by this command includes:</xhtml:p><xhtml:ul xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+  <xhtml:li>Static web pages</xhtml:li>
+  <xhtml:li>Installation utilites</xhtml:li>
+</xhtml:ul><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">At the end of the build process, the release is stored in a directory _rel.</xhtml:p><xhtml:h4 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Contents of the makefile</xhtml:h4><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms"><pre>PROJECT = website
+
+DEPS = cowboy
+dep_cowboy = pkg://cowboy master
+
+include vsn.mk
+VSN = 0.0.1
+
+.PHONY: release clean-release static-pages
+
+release: clean-release all 
+	./relx -o rel/$(PROJECT)
+	static-pages
+
+clean-release: clean-rel
+	rm -rf rel/$(PROJECT)
+
+static-pages:
+	rm -rf $(PROJECT)/$(PROJECT)/lib/*/src
+	cp -r clients rel/$(PROJECT)/$(PROJECT)
+	cp installer/install.sh rel/$(PROJECT)
+	chmod +x rel/$(PROJECT)/install.sh
+	rm -rf rel/$(PROJECT)/installer
+	mkdir rel/$(PROJECT)/installer
+#	mkdir /rel/$(PROJECT)/installer
+	cp installer/website.src rel/$(PROJECT)/installer/website.src
+	cp readme.txt rel/$(PROJECT)
+#	sh mktar.sh $(PROJECT)	
+#	tar -Avz clients installer
+
+include ../erlang.mk
+
+</pre></xhtml:pre><xhtml:h4 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The installer</xhtml:h4><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The installer puts a script into /etc/init.d/ to start the webserver.
+Links to this script are put into the rc&lt;runlevel&gt;.d directories
+so that the webserver is started and stopped automatically.  The webserver
+is run as a non-priveilaged user for security purposes, the username
+for this user being a parameter in the install.  At the time the install
+is made the same information is used to make an uninstall script.</xhtml:p><xhtml:h5 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">install.sh</xhtml:h5><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms"><pre># install embedded erlang application built with relx
+# replaces string %FINAL_ROOT_DIR% with installdir
+# in accordance with Erlang System Manual section
+# Installing a Target System
+# usage: install &lt;application&gt;
+# The tarball has been copied to the directory where it will
+# be installed, and this install script installs it.
+
+APP=$1
+
+if [ "$2" = "" ]; then 
+    echo "Usage install &lt;application&gt; &lt;user&gt;"
+    exit 1
+else
+    USER=$2
+
+#tar -xvz $APP.tar.gz 
+
+    ROOTDIR=$APP
+    FULLPATH=`pwd`/$APP
+    DataFile=$ROOTDIR/releases/start_erl.data
+
+    ERTS_VSN=`awk '{print $1}' $DataFile`
+    VSN=`awk '{print $2}' $DataFile`
+
+    RL1=K75$APP
+    RL2=S75$APP
+    RL3=S75$APP
+    RL4=S75$APP
+    RL5=S75$APP
+    RL6=K75$APP
+
+# make uninstaller
+    echo 'sudo /etc/init.d/'$APP stop &gt; uninstall.sh
+    echo 'sudo rm /etc/init.d/'$APP &gt;&gt; uninstall.sh
+    echo 'sudo rm /etc/rc1.d/'$RL1 &gt;&gt; uninstall.sh
+    echo 'sudo rm /etc/rc2.d/'$RL2 &gt;&gt; uninstall.sh
+    echo 'sudo rm /etc/rc3.d/'$RL3 &gt;&gt; uninstall.sh
+    echo 'sudo rm /etc/rc4.d/'$RL4 &gt;&gt; uninstall.sh
+    echo 'sudo rm /etc/rc5.d/'$RL5 &gt;&gt; uninstall.sh
+    echo 'sudo rm /etc/rc6.d/'$RL6 &gt;&gt; uninstall.sh
+    echo 'sudo rm -rf '$FULLPATH &gt;&gt; uninstall.sh
+
+    BINDIR=$FULLPATH/erts-$ERTS_VSN/bin
+    EMU=beam
+# need to escape full path before substitution
+    ESC_PATH=`(echo $FULLPATH | sed 's/\//\\\\\//g')`
+    echo '$ESC_PATH ='$ESC_PATH
+
+    DEST=erl;sed "s/%FINAL_ROOTDIR%/$ESC_PATH/"  $BINDIR/$DEST.src &gt; $BINDIR/$DEST
+    DEST=start;sed "s/%FINAL_ROOTDIR%/$ESC_PATH/"  $BINDIR/$DEST.src &gt; $BINDIR/$DEST
+    DEST=start_erl;sed "s/%FINAL_ROOTDIR%/$ESC_PATH/"  $BINDIR/$DEST.src &gt; $BINDIR/$DEST
+    DEST=website;
+       sed "s/%FINAL_ROOTDIR%/$ESC_PATH/"  installer/$DEST.src | 
+       sed "s/%USER%/$USER/" |
+       sed "s/%APP%/$APP/" &gt; installer/$DEST
+
+    chmod +x $APP/bin/$APP*
+    chmod +x $BINDIR/*
+    chmod +x installer/website
+
+    sudo cp installer/website /etc/init.d
+    sudo ln -s /etc/init.d/website /etc/rc1.d/$RL1 
+    sudo ln -s /etc/init.d/website /etc/rc2.d/$RL2 
+    sudo ln -s /etc/init.d/website /etc/rc1.d/$RL3 
+    sudo ln -s /etc/init.d/website /etc/rc2.d/$RL4 
+    sudo ln -s /etc/init.d/website /etc/rc1.d/$RL5 
+    sudo ln -s /etc/init.d/website /etc/rc2.d/$RL6 
+
+    sudo /etc/init.d/$APP start
+
+fi
+</pre> </xhtml:pre><xhtml:h4 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Building for a different system</xhtml:h4><xhtml:h3 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Running the build in a test environment</xhtml:h3><xhtml:h4 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Testing from a non-graphic build machine</xhtml:h4><xhtml:h3 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Running the installer</xhtml:h3></xhtml:section></xhtml:body></xhtml:html></ax:file>
+    <ax:file filename="futuredev.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content=""/><xhtml:title>Future Developments</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="intro.xhtml">intro</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="whatsxml.xhtml">whatsxml</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xmlproc.xhtml">Xml processing</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="namespaces.xhtml">namespaces</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xpath.xhtml">xpath</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xslt.xhtml">xslt</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="static.xhtml">static site</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="validation.xhtml">Validation</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="splitpages.xhtml">split_pages</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="insert.xhtml">insert_content</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="build.xhtml">build</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="futuredev.xhtml">FutureDev</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="rest.xhtml">REST Resources</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"><xhtml:img xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" width="100%" left="250px" src="images/hw.png"/></xhtml:a><xhtml:br/><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+This page represents a snapshot of intentions at the time
+of publishing.  It is subject to revision without notice.
+</xhtml:p><xhtml:h4 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Unordered list of unscheduled tasks</xhtml:h4><xhtml:ul xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<xhtml:li>Build dynamic site for Peter's Videos</xhtml:li>
+<xhtml:li>Login protected private pages</xhtml:li>
+<xhtml:li>Data storage and retrieval for web pages</xhtml:li>
+<xhtml:li>Remote administration</xhtml:li>
+<xhtml:li>Source code control</xhtml:li>
+<xhtml:li>Dynamic content websites</xhtml:li>
+</xhtml:ul><xhtml:h4 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Programme</xhtml:h4><xhtml:ol xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<xhtml:li>Disable lid switch on Eee-PC</xhtml:li>
+<xhtml:li>Tidy up this documentation</xhtml:li>
+<xhtml:li>Preliminary design for web data storage and retrieval</xhtml:li>
+<xhtml:li>Implement sourcecode control</xhtml:li>
+<xhtml:li>Develop release v1.01</xhtml:li>
+</xhtml:ol><xhtml:h4 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Develop with next release v1.01</xhtml:h4><xhtml:ul xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<xhtml:li>No-compile site configuration</xhtml:li>
+<xhtml:li>Stylesheets part of site definition xml document</xhtml:li>
+<xhtml:li>Improved graphic for tony.gen.nz</xhtml:li>
+</xhtml:ul></xhtml:section></xhtml:body></xhtml:html></ax:file>
+    <ax:file filename="rest.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="REST"/><xhtml:title>REST Resources</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="intro.xhtml">intro</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="whatsxml.xhtml">whatsxml</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xmlproc.xhtml">Xml processing</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="namespaces.xhtml">namespaces</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xpath.xhtml">xpath</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="xslt.xhtml">xslt</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="static.xhtml">static site</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="validation.xhtml">Validation</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="splitpages.xhtml">split_pages</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="insert.xhtml">insert_content</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="build.xhtml">build</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="futuredev.xhtml">FutureDev</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="rest.xhtml">REST Resources</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"><xhtml:img xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" width="100%" left="250px" src="images/hw.png"/></xhtml:a><xhtml:br/><xhtml:h3 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Rest is a stateless protocol for storing/retrieving data using HTTP</xhtml:h3><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The following resource classes have been defined for this purpose:</xhtml:p><xhtml:ul xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+  <xhtml:li><xhtml:em>static/[id]</xhtml:em> denotes a resource that will never change.  Such resources may be versions of a symbolic resource</xhtml:li>
+  <xhtml:li><xhtml:em>symbolic/[id]</xhtml:em> denotes a reference to something that changes.  When used with GET retrieves the latest version of the resource.  When used with PUT or POST causes the creation of a new static resource with the contained data.</xhtml:li>
+  <xhtml:li><xhtml:em>symbolic/[id];ts=[timestamp]</xhtml:em>For GET retrieves the static resource that was current at time ts.  For PUT, or POST a static resource with a creation stamp as given by ts is created.</xhtml:li>  
+  <xhtml:li><xhtml:em>collection;ts=[timestamp];filter=[filterexpr]</xhtml:em> denotes a set of static resources that existed at ts and for which filter is true.  Valid for GET.</xhtml:li>
+  <xhtml:li><xhtml:em>checkpointed</xhtml:em> Checkpointed resources are saved state from
+a particular point in time that have an external value.  For example a
+statement of account, once posted to a client should be saved.  Similarly
+stocktake counts are fixed references in time.</xhtml:li>
+  <xhtml:li><xhtml:em>calculate</xhtml:em> These resources imply a specific processing function over the data.</xhtml:li>
+</xhtml:ul><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Id values for static and symbolic resources are globally unique.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">In this document the state of something represents the totality
+of all of its components.  The state of a system is all the data that
+is contained in that system.  So when transactions are applied to a
+system its state changes.</xhtml:p><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The state of a symbolic resource can therefore be thought of as
+changing though time by the application of static resources.  The state
+of that symbolic resource is therefore equal to the value of the
+last static resource with a timestamp less than or equal to the
+symbolic resources timestamp.  It is important that the data retrieval
+mechanism be able to evaluate this quantity efficiently.</xhtml:p><xhtml:h3 xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Issues</xhtml:h3><xhtml:ul xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+  <xhtml:li><xhtml:em>Rest security.</xhtml:em> By definition REST is a stateless protocol.  Session cookies and other security mechanisms imply the existence of state.  One possible mechanism is to require clients to encrypt data with their private key so that each transmission can be properly validated.  Is this supported by browsers?</xhtml:li>
+</xhtml:ul></xhtml:section></xhtml:body></xhtml:html></ax:file>
+  
+    index.xhtml
+    mesh
+    Phone: 027 2203796
+    Email: tony@tony.gen.nz
+    
+    <ax:file filename="publickey.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>Main</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="publickey.xhtml">Main</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"/><xhtml:br/><xhtml:p xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Communications with Tony Wallace can be encrypted with the following
+public key</xhtml:p><xhtml:pre xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1
+
+mQENBFJQ2EUBCADNvUoh5QwEOCnkYCEMwg8zJzp8chmFePT2wqVmWAQXVPPKOWsH
+yGxYmoDeGuqpvmhx4rPpjW9CpX1xN7m6JPGE7FDCpw6WiOjAuNycSUFbKrVaSGpz
+MHjVx3eJpwOtEGTzDbHmGz32to1D2SwuITmXpVzXLAR4+A9ywSozaZc42UeLf/9j
+h77SR3mKEJpMxiqD6Ui+XGTV3zJRPTdh0s8z4lAhgqRM+he8bRpURydaTgGaEUDK
+DSHL/3bBx+q0QTcnWpGJRDjyqhlO87euEXtZZbgBwg5+N+OGhZ5pzs82g6tKyHTL
+UsHsO2fPjXz1SFoxBlhQQRpHg25F4YgfNEOFABEBAAG0KEFudGhvbnkgSmFtZXMg
+V2FsbGFjZSA8dG9ueUB0b255Lmdlbi5uej6JATgEEwECACIFAlJQ2EUCGwMGCwkI
+BwMCBhUIAgkKCwQWAgMBAh4BAheAAAoJEDrpo/TJux46690H/AvCKeQ3pSWRWptb
+EsbWT9xPfmk9eD8LsYIIV/mHu/QhpekHeiSYv59lP3pLcOv7BYhe4oe4rte5Xc5z
+mllQBTFhFtIqNpv8UDWWmPGmS58nXm9fQaEJGoJ6XVYX9OWcD6B70x1U1DJFj8YJ
+paoUZLcJrfbyUfqYVNjmRq3x8prdXZohTki9lHrcqMpyz30MYjV4cCGz/rj9cQpB
+DlfPIxG10zbyPSvDgclJJ9hGW9FHq3h8oH4kJR4jHUa0o2xy9ZdLQnAl196kB3yo
+nHgFPexb4HPvwRxL23qtSxkYB7p7IJTf0xbk9UOPWD7EhY0ASiFgSw7uv/VwYceV
+e3PXkCu5AQ0EUlDYRQEIAMNv3KI6lMO9Z3UyPwrEwzBWCqKkcVJwCh3UUgHQKSxe
+YdL8PhFnaQD0kr0J0R1sLKooS+OExu5rmvy3qoQ3BA2f13OUZF2ZotW3woVSGStS
+niEzs6l7L+mWtBQwyIjSyMPa4tuxKIWgy1b2S1axk0yTgn9w45ycTLiuT0H9FoNA
+ZahRpU9gvH2gwJkZFoaW+5iibpzceFxUX7bfutdcw2FhV0dh1lkvGcdOQnaoWZci
+slZ5hFFfy07SDtGBqu46C0hRZKwZ1lj/H4/uJwQXmD6ywEusJDnqjFqellYJHmoP
+9s7q3POwWvxr5pXquLb/GlWvmEWFSwyozuypqRsLhzEAEQEAAYkBHwQYAQIACQUC
+UlDYRQIbDAAKCRA66aP0ybseOoHNCACZ/mwhUt3jxzDAroX+3YosiQRh8cFFHOk6
+RUpt4eLjrk12DVHYCuNIHf16jyMQybkOeBvyeWxvNpXzapdjMWK7Zp0eVQEAeKj9
+J/PQzZFHpYy0z0L2OQjKR2q8ciXRMm8ytF/mJZZbYICyyL5Yq4gz8Gs+mXROUmYD
+vadt9NxMLJH4kynF11FEnIPTq0xBuBufQ/GAAlKxvc4anYWduDuvHUKcTnRssj6T
+W5ThxFyoBpuF/h0qDyfcUrE5y+WUcGjYyHu9j6oWUBsT9zlpxkqRNxO38tAnl601
+FBLtJClYygBz9Ro6DQAIcQX1Wqvcv3jLszOzH2hiu1Yg2Ipz0Sdc
+=z31N
+-----END PGP PUBLIC KEY BLOCK-----
+
+</xhtml:pre></xhtml:section></xhtml:body></xhtml:html></ax:file>
+  
+    index.xhtml
+    mesh
+    Phone: 027 2203796
+    Email: tony@tony.gen.nz
+    
+    <ax:file filename="addwebsite.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>Add_Website</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="addwebsite.xhtml">Add_Website</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="admin_todo.xhtml">Admin_todo</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="admin_troubleshooting.xhtml">Admin_troubleshooting</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"/><xhtml:br/><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+ERRATA: Site rules need to be compiled and put into ebin directory
+as part of build procedure.  This is not currently part of make rules
+</xhtml:p><xhtml:h1 xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Add Website</xhtml:h1><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">All code in this section is written in Erlang.  The webserver is cowboy.
+This page is not intended as a tutorial for either of these, rather
+it is intended to explain how to update the Cowboy webserver as used here.</xhtml:p><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Edit the src/start.erl program and add the url along with the name of the
+configuration program.  The current start.erl is shown here for instruction.
+</xhtml:p><xhtml:pre xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<pre>-module(start).
+-export([main/1,go/0,start/0,stop/0,load/0]).
+%% TODO: go works, start works stop does not.  Why?
+%% {"greenrose.co.nz",greenroseconfig}
+-define(APP,website).
+-define(SUP,website_sup).
+
+main(_) -&gt;
+    go().
+
+load() -&gt;
+    application:load(?APP),
+    application:start(sasl),
+    application:start(crypto),
+    application:start(ranch),
+    application:start(cowlib),
+    application:start(cowboy).
+    %% in the test environment mnesia is memory resident so tables need to be set up
+go() -&gt;
+    load(),
+    start().
+
+start() -&gt;
+    application:start(?APP).
+    %mnesia_procs:do_once().
+stop() -&gt;
+    application:stop(?APP).
+
+
+
+</pre>
+</xhtml:pre><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+The configuration programs are stored siteconf directory.  The purposes
+of the siteconf programs are twofold:</xhtml:p><xhtml:ul xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+  <xhtml:li>To separate each site's configuration into a single file pertaining to that site for better code modularity,</xhtml:li>
+  <xhtml:li>To define handlers mapping URL's to handlers for that type of resource.</xhtml:li>
+</xhtml:ul><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The handler for this site (which is currently static files only) is shown below.</xhtml:p><xhtml:pre xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<pre>-module(tonygenconfig).
+
+-export([routing/2]).
+
+routing(SiteName,DataDir) -&gt;
+    ExtSite = lists:append(["[...]",SiteName]),
+    IdxFile = filename:join(DataDir,"tonygen/web_root/index.html"),
+    StaticDir = filename:join(DataDir,"tonygen/web_root"),
+    true = filelib:is_regular(IdxFile),
+    true = filelib:is_dir(StaticDir),
+    {ExtSite,
+	[
+	 {"/", ajw_cowboy_static, {file, IdxFile}},
+	 {"/[...]", ajw_cowboy_static, {dir, StaticDir}}
+	]
+    }.
+</pre>
+</xhtml:pre><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The data files need to be copied into the resource directory which is clients/&lt;site_identifier&gt;/webroot/  If this directory does not exist for your site it needs to be made.  The site_identifier must match the path in the site configuration file.  In this case "tonygen"</xhtml:p><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Now the site needs to be compiled and tested.  Compiling is done by running the command erl -make.</xhtml:p><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Start the website by running erl and then executing start:go in the development web server's source directory.  If everything is right it should start okay.</xhtml:p><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Next put an entry into the hosts file "/etc/hosts" to point back to the localhost.  What is done here is to make this a test host as in test.tony.gen.nz 127.0.0.1.  The easiest way to do this is to copy the /etc/hosts to the local directory, edit it there, and copy it back.</xhtml:p><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Now the website should show in the test webserver</xhtml:p><xhtml:h2 xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Deployment</xhtml:h2><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">The test site has been tested, not the task is to go live.  For a new
+website the DNS A record must be changed so that the site can be accessed
+by the public.  This is done through your Domain Name supplier's website.</xhtml:p><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Next an erlang runtime build needs to be generated and deployed.</xhtml:p><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Building is done with relx by Ninenines.</xhtml:p><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">From here my knowledge gets a bit thin, I will update this section
+as I learn more about using tar.gz to install a update.  This will
+be necessary when updating the production server.</xhtml:p><xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Prepare server by assigning static-ip in /etc/network/interfaces.
+Disable lid switch in /etc/systemd/logind if installing on laptop.</xhtml:p><xhtml:h2 xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">Including Static Pages Into the Build</xhtml:h2><xhtml:em xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">make</xhtml:em><xhtml:ol xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+  <xhtml:li>Build the static site</xhtml:li>
+  <xhtml:li>Copy the pages to the client directory of the website support directory</xhtml:li>
+  <xhtml:li>Update the release version.  This is in relx.config.  There is some way of using overlays to do this in relx, but I don't know how to do it yet.</xhtml:li>
+  <xhtml:li>Make the release directory structure by running "make" in the support directory</xhtml:li>
+  <xhtml:li>Copy the static pages into release directory by running "make static-pages in the support directory</xhtml:li>
+  <xhtml:li>Make a release by compressing release directory. The release directory is the subdirectory containing the "lib" directory.</xhtml:li>
+</xhtml:ol></xhtml:section></xhtml:body></xhtml:html></ax:file>
+    <ax:file filename="admin_todo.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>Admin_todo</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="addwebsite.xhtml">Add_Website</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="admin_todo.xhtml">Admin_todo</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="admin_troubleshooting.xhtml">Admin_troubleshooting</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"/><xhtml:br/><xhtml:ul xmlns="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<xhtml:li>Understand sysadmin procedures for erlang applications
+that include mnesia databases.  Incorporate these into these
+web administration pages.</xhtml:li>
+<xhtml:li>Download a relx manual from ninenines</xhtml:li>
+<xhtml:li>Understand relx overlays</xhtml:li>
+</xhtml:ul></xhtml:section></xhtml:body></xhtml:html></ax:file>
+    <ax:file filename="admin_troubleshooting.xhtml">
+<ax:xml_tags>&lt;?xml version="1.0"?&gt;&lt;!DOCTYPE html&gt;</ax:xml_tags><xhtml:html><xhtml:head><xhtml:meta name="Keywords" content="xml"/><xhtml:title>Troubleshooting</xhtml:title><xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/><xhtml:style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  pre { color:#800080;}
+  a:link {color:#0000FF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</xhtml:style></xhtml:head><xhtml:body><xhtml:nav><xhtml:h2>Contact</xhtml:h2><xhtml:ul><xhtml:li>Phone: 027 2203796</xhtml:li><xhtml:li><xhtml:a xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms" href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="index.xhtml">Home Page</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="addwebsite.xhtml">Add_Website</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="admin_todo.xhtml">Admin_todo</xhtml:a></xhtml:li><xhtml:li><xhtml:a href="admin_troubleshooting.xhtml">Admin_troubleshooting</xhtml:a></xhtml:li></xhtml:ul></xhtml:nav><xhtml:section><xhtml:a href="index.xhtml"/><xhtml:br/><xhtml:ul xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xf="http://www.w3.org/2002/xforms">
+<symptom>Built system not working correctly</symptom>
+<possible_cause>Conflict between multiple installed copies</possible_cause>
+<corrective_actions>
+<xhtml:ol>
+<xhtml:li>Remove all copies from usr/lib/erlang and usr/local/erlang</xhtml:li>
+<xhtml:li>Reinstall with make install from latest version</xhtml:li>
+</xhtml:ol>
+</corrective_actions>
+<symptom>Laptop suspends when lid closed (not good when using laptop as server)</symptom>
+<possible_cause>Lid switch not ignored in /etc/systemd/logind.conf</possible_cause>
+<corrective_actions>
+Set entry HandleLidSwitch to ignore in /etc/systemd/logind.conf
+</corrective_actions>
+</xhtml:ul></xhtml:section></xhtml:body></xhtml:html></ax:file>
+  </site_pages>

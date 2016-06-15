@@ -1,0 +1,20 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:ax="abc">
+  <name>static site</name>
+  <title>static site</title>
+  <url>static.xhtml</url>
+  <keywords>xml</keywords>
+  <pageheader>Greenrose</pageheader>
+<ax:content xmlns:ax="abc">
+<xhtml:h2>Generating Html</xhtml:h2>
+<xhtml:p>Generating HTML in this way is problematic in that
+the latest HTML 5 is <xhtml:em>not</xhtml:em> xml compatible. By default
+XSLT will collapse a opening closing tag pair into a self closing
+tag that will cause problems in HTML 5. When this causes problems
+put an XML comment between them to keep them apart.</xhtml:p>
+<xhtml:p>Xml include is used to copy pages into the XML dataset at
+appropriate places.  As XSLT 1.0 does not have the ability
+to save each page to a separate file, this is done by an external
+script written in Erlang.  Any suitable language could be used
+for this task.</xhtml:p>
+</ax:content>

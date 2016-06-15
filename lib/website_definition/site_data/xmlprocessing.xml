@@ -1,0 +1,55 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <name>Xml processing</name>
+  <title>xml processing</title>
+  <source>xmlprocessing.xml</source>
+  <url>xmlprocessing.xhtml</url>
+  <keywords>xml</keywords>
+  <pageheader>Greenrose</pageheader>
+<content>
+<xhtml:p>XML processors of which there are three common types, SAX, DOM, XSLT
+tokenise an XML document and these tokens are processed by the user application, not the raw text file.</xhtml:p>
+<xhtml:p>SAX and DOM are libraries that make the content of the XML document
+available to a host language such as Java.  DOM is used in conjuction
+with JavaScript in AJAX web pages.  XSLT is an XML based language for
+processing XML documents.</xhtml:p>
+<xhtml:p>The API's for each language are different and independent, but they
+exhibit strong simiarities.  XSLT is an important part of many XML tool
+chains.  It can be used to convert a document (eg docbook) to pdf through
+XSLT-FO.  XSLT delegates the interrogation of the XML document to the
+XPATH language.</xhtml:p>
+<xhtml:p>XPATH is also used as an XML interrogation language by XQUERY. XPATH expressions operate on a tree of nodes.  DOM offers such a tree.  An XPATH processor may operate on a DOM tree, or any other representation it chooses.  Proficiency with both XSLT and XQUERY requires a sound proficiency in XPATH.  The node types of an xml document (as defined by XPATH) are:
+<xhtml:ul>
+
+<xhtml:li>
+<xhtml:p>root nodes</xhtml:p>
+</xhtml:li>
+
+<xhtml:li>
+<xhtml:p>element nodes</xhtml:p>
+</xhtml:li>
+
+<xhtml:li>
+<xhtml:p>text nodes</xhtml:p>
+</xhtml:li>
+
+<xhtml:li>
+<xhtml:p>attribute nodes</xhtml:p>
+</xhtml:li>
+
+<xhtml:li>
+<xhtml:p>namespace nodes</xhtml:p>
+</xhtml:li>
+
+<xhtml:li>
+<xhtml:p>processing instruction nodes</xhtml:p>
+</xhtml:li>
+
+<xhtml:li>
+<xhtml:p>comment nodes</xhtml:p>
+</xhtml:li>
+
+</xhtml:ul>
+
+</xhtml:p>
+</content>
+</page>

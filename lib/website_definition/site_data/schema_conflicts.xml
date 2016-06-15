@@ -1,0 +1,31 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <name>Validation</name>
+  <title>Validation</title>
+  <url>validation.xhtml</url>
+  <keywords>xml</keywords>
+  <pageheader></pageheader>
+  <header></header>
+  <ax:content xmlns:ax="abc">
+<xhtml:p>Xml validation is the process of checking that
+an xml document follows the rules for that type
+of document.</xhtml:p>
+<xhtml:p>This validation is essential so that the tools (such as templates)
+can operate on the data.  Validating the xml is a good way of
+preventing errors later.  These validation rules are written in
+some form of formalised language.  Many languages can be used
+for this purpose, for example a validation template could be
+written in xslt and xpath.  Languages commonly used for validation
+include DTD's, XML Schema and RelaxNG.</xhtml:p>
+<xhtml:p>The choice of validation languages is influenced by the toolsets
+in use, company policy and other considerations.  In this case
+the choice of <xhtml:a href="http://relaxng.org/spec-20011203.html">RelaxNG</xhtml:a>, 
+<xhtml:a href="http://relaxng.org/compact.html">compact syntax</xhtml:a>, 
+was chosen for compatibility
+with the emacs editor.  </xhtml:p>
+<xhtml:p>The relaxng specification for this project is:
+<xhtml:pre>
+<xi:include href="site.rnc" parse="text"/>
+</xhtml:pre>
+</xhtml:p>
+  </ax:content>
+</page>

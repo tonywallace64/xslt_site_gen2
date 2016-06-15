@@ -1,0 +1,62 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <name>xpath</name>
+  <title>xpath</title>
+  <source>xpath.xml</source>
+  <url>xpath.xhtml</url>
+  <keywords>xml</keywords>
+  <pageheader>Greenrose</pageheader>
+<content>
+<xhtml:h2>Introduction</xhtml:h2>
+<xhtml:p>
+At the last page Xml namespaces were introduced as a way of incorporating
+various xml vocabularies into our documents.  It is time to meet the first
+of these vocabularies, xpath, a tool for navigating through xml documents.</xhtml:p>
+<xhtml:h2>What is XPATH?</xhtml:h2>
+<xhtml:p><xhtml:em>Xpath is a language for finding related nodes in an xml document.</xhtml:em></xhtml:p>
+<xhtml:p>Xml documents are read into software, and the various parts of the language
+are parsed into nodes.</xhtml:p>
+<xhtml:h3>Xpath Nodes</xhtml:h3>
+<xhtml:ul>
+<xhtml:li>elements</xhtml:li>
+<xhtml:li>attributes</xhtml:li>
+<xhtml:li>comments</xhtml:li>
+<xhtml:li>whitespace</xhtml:li>
+<xhtml:li>processing instructions</xhtml:li>
+<xhtml:li>text</xhtml:li>
+</xhtml:ul> 
+<xhtml:p>The relationships between
+these nodes are stored in a structure known as an xml infoset. XPATH is a language for navigating 
+an xml infoset.</xhtml:p>
+<xhtml:p>XPATH is therefore an xml query language and is itself part of other XML languages
+such as XSLT, XQUERY an XPOINTER.  Proficiency with XPATH is therefore a prerequisite
+for proficiency in these other languages.</xhtml:p>
+<xhtml:h2>XPATH axes</xhtml:h2>
+<xhtml:p>To understand xpath it is necessary to have in mind two models of the xml document at the same time:
+<xhtml:ul>
+<xhtml:li>Xml document as a tree</xhtml:li>
+<xhtml:li>Xml document as a list</xhtml:li>
+</xhtml:ul></xhtml:p>
+<xhtml:p>
+If you take any xml document and print it out, and a set of coloured highlighters.  Select a node and call it the current node colour it yellow.  This is the <xhtml:em>self</xhtml:em> axis.  Firstly considering the document as a tree, this node will have a parent node, which will in turn have a parent node up until the root node is reached.  Colour each of these pink. In xpath, this is the <em>ancestor</em> axis.  The current node may have children.  Colour these, and their decendents blue, this is the <em>decendent axis</em>.  The uncoloured nodes that are above the current document constitute the <em>preceeding axis</em>, and those uncoloured nodes following the current node are the <em>following axis</em>.  Finally those other nodes with the same parent which are preceeding the current node are <em>preceeding-sibling axis</em>.  The other nodes with the same parent but going down the page are the <em>following-sibling axis</em>.</xhtml:p>
+<xhtml:p>There are other axes defined in the standard, these are easily derivable from those listed above.</xhtml:p>
+<xhtml:h2>axis ordering</xhtml:h2>
+<xhtml:p>In every case the position on the axis is related to how far the node is from the current node.  The parent node is position 1 on the ancestor axis, the grandparent position 2 on the ancestor axis.  These positions are in document or reverse document order.  Document order is how close the node is on the printed page going from top to bottom.  Reverse document order is going on the page from bottom to top. Preceeding and ancestor nodes are in reverse document order, following and decendent nodes in document order.</xhtml:p>
+<xhtml:h2>location paths</xhtml:h2>
+<xhtml:p>An xpath expression may result in a node set.  That is a set of qualifying nodes. The expression to find all decendents of the current node is "decendents::node()".  The axis comes first, and then a node test which in this case returns any type of node whatsoever.  A location expression can contain several parts each separated by /.  Each part can be filtered by an expression in [].</xhtml:p>
+<example>
+  <title>Find closest ancestor page which has a url node as it's child</title>
+  <ax:content xmlns:ax="abc">ancestor::page[child::url][position()=1]</ax:content>
+</example>   
+<xhtml:h2>Abbreviated syntax</xhtml:h2>
+<xhtml:p>The abbreviated syntax is as follows:</xhtml:p>
+<xhtml:ul>
+<xhtml:li><xhtml:p>omitting an axis is short for "child::"</xhtml:p></xhtml:li>
+<xhtml:li><xhtml:p>"." represents "self::node()"</xhtml:p></xhtml:li>
+<xhtml:li><xhtml:p>".." represents "parent::node()"</xhtml:p></xhtml:li>
+<xhtml:li><xhtml:p>"@" represents "attribute::"</xhtml:p></xhtml:li>
+<xhtml:li><xhtml:p>"//" represents "decendant-or-self::"</xhtml:p></xhtml:li>
+<xhtml:li><xhtml:p>"[number]" represents "[position()=number]"</xhtml:p></xhtml:li>
+</xhtml:ul>
+<xhtml:p>Thus the previous example could be written "ancestor::page[url][1]"</xhtml:p>
+</content>
+</page>

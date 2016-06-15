@@ -1,0 +1,2 @@
+-module(empty).
+-vsn(2.0).

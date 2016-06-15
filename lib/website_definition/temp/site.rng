@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <choice>
+      <ref name="sitespec"/>
+      <ref name="pagespec"/>
+    </choice>
+  </start>
+  <!--
+    This file specifies a website definition
+    The data specified here is combined with
+    the site template to produce the website.
+  -->
+  <!--
+    This data is accessed by xpath, formed
+    into nodesets and inserted into the template
+    at defined places.  The content of the
+    elements is thus fragments of the target language
+    (normally html).
+  -->
+  <!--
+    This file validates the site file
+    and the individual pages.  These individual
+    pages may be in separate files for modularity.
+    For this reason xinclude statements are
+    accepable page definitions in the site file.
+  -->
+  <define name="anyElement">
+    <element>
+      <anyName/>
+      <zeroOrMore>
+        <choice>
+          <attribute>
+            <anyName/>
+          </attribute>
+          <text/>
+          <ref name="anyElement"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="nodeset">
+    <choice>
+      <zeroOrMore>
+        <ref name="anyElement"/>
+      </zeroOrMore>
+      <text/>
+    </choice>
+  </define>
+  <define name="pagespec">
+    <choice>
+      <element name="xi:include">
+        <attribute name="href"/>
+        <optional>
+          <attribute name="parse">
+            <value>xml</value>
+          </attribute>
+        </optional>
+      </element>
+      <element name="page">
+        <optional>
+          <attribute name="schema">
+            <value>site.rnc</value>
+          </attribute>
+        </optional>
+        <element name="name">
+          <text/>
+        </element>
+        <element name="title">
+          <text/>
+        </element>
+        <element name="source">
+          <text/>
+        </element>
+        <element name="url">
+          <text/>
+        </element>
+        <element name="keywords">
+          <text/>
+        </element>
+        <element name="pageheader">
+          <text/>
+        </element>
+        <optional>
+          <element name="file_headers">
+            <text/>
+          </element>
+        </optional>
+        <optional>
+          <element name="header">
+            <ref name="nodeset"/>
+          </element>
+        </optional>
+        <zeroOrMore>
+          <element name="todo">
+            <text/>
+          </element>
+        </zeroOrMore>
+        <element name="content">
+          <ref name="nodeset"/>
+        </element>
+      </element>
+    </choice>
+  </define>
+  <define name="sitespec">
+    <element name="site">
+      <optional>
+        <attribute name="schema">
+          <value>site.rnc</value>
+        </attribute>
+      </optional>
+      <element name="siteurl">
+        <text/>
+      </element>
+      <element name="html_dir">
+        <text/>
+      </element>
+      <element name="resources">
+        <element name="copydir">
+          <text/>
+        </element>
+      </element>
+      <element name="file_headers">
+        <text/>
+      </element>
+      <oneOrMore>
+        <element name="pages">
+          <attribute name="id"/>
+          <element name="homepage">
+            <text/>
+          </element>
+          <element name="navtype">
+            <choice>
+              <value>mesh</value>
+              <value>list</value>
+            </choice>
+          </element>
+          <element name="contact-phone">
+            <ref name="nodeset"/>
+          </element>
+          <element name="contact-email">
+            <ref name="nodeset"/>
+          </element>
+          <optional>
+            <element name="file_headers">
+              <text/>
+            </element>
+          </optional>
+          <element name="banner_image">
+            <ref name="nodeset"/>
+          </element>
+          <oneOrMore>
+            <ref name="pagespec"/>
+          </oneOrMore>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+</grammar>

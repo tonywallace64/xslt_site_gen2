@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<files xmlns:ax="abc">
+  <ax:file filename="test/output/split1.xml">
+    <ax:xml_tags><![CDATA[<?xml version="1.0"?>]]></ax:xml_tags>
+    <split1root>
+      <split1child/>
+    </split1root>
+  </ax:file>
+  <ax:file filename="test/output/split2.txt"><![CDATA[This is the contents of split2]]>
+  </ax:file>
+</files>

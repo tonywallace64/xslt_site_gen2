@@ -1,0 +1,3 @@
+<?xml version="1.0"?><root  xmlns:xi="erf">
+  <xi:include  filename="nosuchfile.xml"></xi:include>
+</root>

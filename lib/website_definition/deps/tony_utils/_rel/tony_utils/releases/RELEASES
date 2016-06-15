@@ -1,0 +1,4 @@
+[{release,"tony_utils","1","5.10.1",
+          [{kernel,"2.16.1","./lib/kernel-2.16.1"},
+           {stdlib,"1.19.1","./lib/stdlib-1.19.1"}],
+          permanent}].

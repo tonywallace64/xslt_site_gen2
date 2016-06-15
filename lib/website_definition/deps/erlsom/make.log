@@ -1,0 +1,30 @@
+make[1]: Entering directory `/home/tony/bin/erlsom/src'
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_compile.erl
+erlsom_compile.erl:352: Warning: variable 'EfdParent' is unused
+erlsom_compile.erl:353: Warning: variable 'AfdParent' is unused
+erlsom_compile.erl:759: Warning: variable 'Max' is unused
+erlsom_compile.erl:759: Warning: variable 'Min' is unused
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom.erl
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_parseXsd.erl
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_write.erl
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_lib.erl
+erlsom_lib.erl:597: Warning: list/1 obsolete
+erlsom_lib.erl:746: Warning: call to http:request/1 will fail, since it was removed in R15B; use httpc:request/1
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_pass2.erl
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_writeHrl.erl
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_add.erl
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_parse.erl
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_sax.erl
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_ucs.erl
+erlsom_ucs.erl:51: Warning: binary/1 obsolete
+erlsom_ucs.erl:232: Warning: list/1 obsolete
+erlsom_ucs.erl:252: Warning: integer/1 obsolete
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_sax_latin1.erl
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_sax_utf8.erl
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_sax_utf16be.erl
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_sax_utf16le.erl
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_simple_form.erl
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_sax_lib.erl
+"/usr/local/bin/erlc" -W   -o ../ebin erlsom_sax_list.erl
+perl -e '$vsn=shift; $mods=""; while(@ARGV){ $_=shift; s/^([A-Z].*)$/\'\''$1\'\''/; $mods.=", " if $mods; $mods .= $_; } while(<>) { s/%VSN%/$vsn/; s/%MODULES%/$mods/; print; }' "1.2.1" erlsom_compile erlsom        erlsom_parseXsd  erlsom_write erlsom_lib      erlsom_pass2     erlsom_writeHrl erlsom_add  erlsom_parse    erlsom_sax erlsom_ucs erlsom_sax_latin1 erlsom_sax_utf8 erlsom_sax_utf16be erlsom_sax_utf16le erlsom_simple_form erlsom_sax_lib erlsom_sax_list < erlsom.app.src > ../ebin/erlsom.app
+make[1]: Leaving directory `/home/tony/bin/erlsom/src'

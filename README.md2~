@@ -1,0 +1,9 @@
+Purpose:  
+
+Learn how to include html portions from an external document.
+This allows navigation bars (and other portions to be managed separately from content.
+
+Strategy:
+
+Use a static website using a cowboy webserver to deliver this content.
+Use makefile for compile and run.

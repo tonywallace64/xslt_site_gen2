@@ -1,0 +1,18 @@
+running .erlang in home directory
+.erlang completed
+<DEBUG module="xslt_extn"
+ line="87"
+ timestamp="notime">
+<![CDATA[["input parameters"]]]></DEBUG>
+<DEBUG module="xslt_extn"
+ line="95"
+ timestamp="notime">
+<![CDATA[Reading standard input until eof]]></DEBUG>
+<DEBUG module="xslt_extn"
+ line="97"
+ timestamp="notime">
+<![CDATA[Outputting results]]></DEBUG>
+<DEBUG module="xslt_extn"
+ line="103"
+ timestamp="notime">
+<![CDATA[Finished]]></DEBUG>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html><xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:exslt="http://exslt.org/strings">
+  <xhtml:head>
+    <xhtml:meta name="Keywords" content=""/>
+    <xhtml:title>Validation</xhtml:title>
+    <xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <xhtml:style type="text/css">
+	  body {color:blue;}  
+	  p  {line-height=130%;}
+	  h1 {text-align:center;}
+	  h2 {text-align:center;}
+	  h3 {text-align:center;}
+	  pre { color:#800080;}
+	  a:link {color:#0000FF;}
+	  a:visited {color:#C0C000;}
+	  nav {
+	    background-image:url(images/grgcleft2.png);
+	    position: absolute;
+	    top :0px;
+	    bottom:0;
+	    left: 0;
+	    width: 240px;
+	    }
+	 section {
+	    position: relative;
+	    margin-left: 250px;
+	    }
+	</xhtml:style>
+  </xhtml:head>
+  <xhtml:body>
+    <xhtml:div id="navbar"/>
+    <xhtml:section>
+      <xhtml:a href="index.xhtml">
+        <xhtml:img xmlns:xf="http://www.w3.org/2002/xforms" src="images/hw.png" left="250px" width="100%"/>
+      </xhtml:a>
+      <xhtml:br/>
+      <xhtml:p>Xml validation is the process of checking that
+an xml document follows the rules for that type
+of document.</xhtml:p>
+      <xhtml:p>This validation is essential so that the tools (such as templates)
+can operate on the data.  Validating the xml is a good way of
+preventing errors later.  These validation rules are written in
+some form of formalised language.  Many languages can be used
+for this purpose, for example a validation template could be
+written in xslt and xpath.  Languages commonly used for validation
+include DTD's, XML Schema and RelaxNG.</xhtml:p>
+      <xhtml:p>The choice of validation languages is influenced by the toolsets
+in use, company policy and other considerations.  
+In our case <xhtml:a href="http://relaxng.org/spec-20011203.html">RelaxNG</xhtml:a>, 
+<xhtml:a href="http://relaxng.org/compact.html">compact syntax</xhtml:a>, 
+is needed for compatibility
+with the emacs editor, however the use of XFORMS requires XML Schema.
+Fortunately there exists a utility "trang" converts from relax ng to 
+XML Schema.  To maintain consistency between the versions a make file
+is created to run trang as required.</xhtml:p>
+      <xhtml:p>Unfortunately trang does not handle file inclusions as defined in
+the relax ng specification.  A program external.erl has been written to
+do the file inclusions, the resulting temporary file is then passed to
+trang.  The call to external.beam (the compiled version of external.erl)
+is included in the makefile.</xhtml:p>
+      <xhtml:p>The relaxng specification for this project is:
+<xhtml:pre>
+<xi:include href="site.rnc" parse="text"/>
+</xhtml:pre>
+</xhtml:p>
+    </xhtml:section>
+    <xhtml:script>
+//  test1
+  function writeNavbar(Contents)
+  {
+  document.getElementById("navbar").innerHTML=Contents;
+  };
+  function httpGetAsync(theUrl, callback)
+  {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() { 
+        if (xmlHttp.readyState == 4 &amp;&amp; xmlHttp.status == 200)
+            callback(xmlHttp.responseText);
+    }
+    xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+    xmlHttp.send(null);
+  };
+  httpGetAsync(
+//
+  "main_nav.xml",writeNavbar);</xhtml:script>
+  </xhtml:body>
+</xhtml:html>

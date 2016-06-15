@@ -1,0 +1,18 @@
+%% Feel free to use, reuse and abuse the code in this file.
+
+{application, static_world, [
+	{description, "Cowboy static file handler example."},
+	{vsn, "1"},
+	{modules, []},
+	{registered, [static_world_sup]},
+	{applications, [
+		kernel,
+		stdlib,
+		ranch,
+		crypto,
+		cowlib,
+		cowboy
+	]},
+	{mod, {static_world_app, []}},
+	{env, []}
+]}.

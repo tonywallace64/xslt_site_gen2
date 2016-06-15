@@ -1,0 +1,26 @@
+XML Metadata
+============
+Xml files SHOULD include metadata such as:
+
+Filename:
+Author:
+Purpose:
+Schema:
+
+This metadata can and should be enforced by schema.
+
+Tool Support
+============
+
+Enforce schema checking using automated tools such as 
+mad compile.  Need a command_line schema validation
+tool.  PyXml is a possibility.  Also look at trang and
+schematools.  
+
+Module XML
+==========
+
+There is a need for a modular xml construction
+where there is a document wrapper with the metadata
+and some form of content inside, a bit like MIME in email
+and HTML systems.

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsl:transform version="1.0" 
+	       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	       xmlns:xi="http://www.w3.org/2001/XInclude"
+	       xmlns:exslt="http://exslt.org/strings"
+	       >
+<xsl:template match="/" >
+  <apply-templates />
+</xsl:template>
+
+<xsl:template match="//xi:include" >
+  <xsl:value-of select="@href"/>
+</xsl:template>
+</xsl:transform>

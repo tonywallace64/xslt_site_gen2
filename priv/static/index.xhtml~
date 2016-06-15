@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <xhtml:head>
+    <xhtml:meta name="Keywords" content=""/>
+    <xhtml:title>Main</xhtml:title>
+    <xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <xhtml:style type="text/css">
+	  body {color:blue;}  
+	  p  {line-height=130%;}
+	  h1 {text-align:center;}
+	  h2 {text-align:center;}
+	  h3 {text-align:center;}
+	  pre { color:#800080;}
+	  a:link {color:#0000FF;}
+	  a:visited {color:#C0C000;}
+	  nav {
+	    background-image:url(images/grgcleft2.png);
+	    position: absolute;
+	    top :0px;
+	    bottom:0;
+	    left: 0;
+	    width: 240px;
+	    }
+	 section {
+	    position: relative;
+	    margin-left: 250px;
+	    }
+	</xhtml:style>
+  </xhtml:head>
+  <xhtml:body>
+    <xhtml:nav id="navbar"/>
+    <xhtml:section>
+      <xhtml:h1 xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:ax="abc">Tony's Main Page</xhtml:h1>
+      <xhtml:p xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:ax="abc">This website is currently documenting procedures
+for making itself and keeping itself updated.  At
+the moment this is limited to static sites but as
+extra facilities are added these too will be documented
+here. The source code for this project is located at
+~/Projects/WebTechnologies/LearningXML/site_data</xhtml:p>
+      <xhtml:ol xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:ax="abc">
+<xhtml:li><xhtml:a href="intro.xhtml">Generating a wesite with XSLT</xhtml:a></xhtml:li>
+<xhtml:li><xhtml:a href="publickey.xhtml">Contact me securely</xhtml:a></xhtml:li>
+<xhtml:li><xhtml:a href="addwebsite.xhtml">Admin guide</xhtml:a></xhtml:li>
+<xhtml:h3>Change Log</xhtml:h3>
+<xhtml:h4>31 May 2016</xhtml:h4>
+<xhtml:ul>  
+  <xhtml:li>Include pages to test html file upload</xhtml:li>
+  <xhtml:li>Put reference to source location</xhtml:li>
+</xhtml:ul>
+<xhtml:h4>10 June 2015</xhtml:h4>
+<xhtml:ul>
+  <xhtml:li>Set declarations for xhtml</xhtml:li>
+  <xhtml:li>Add xhtml namespace prefixes for all markup elements</xhtml:li>
+</xhtml:ul>
+<xhtml:h4>11 June 2015</xhtml:h4>
+<xhtml:ul>
+  <xhtml:li>Change code colour for better layout</xhtml:li>
+  <xhtml:li>Put project under source control</xhtml:li>
+</xhtml:ul>
+
+</xhtml:ol>
+      <xhtml:a href=""/>
+      <xhtml:br/>
+    </xhtml:section>
+    <script>
+//  test
+  function writeNavbar(Contents)
+  {
+  document.getElementById("navbar").innerHTML=Contents;
+  };
+  function httpGetAsync(theUrl, callback)
+  {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() { 
+        if (xmlHttp.readyState == 4 &amp;&amp; xmlHttp.status == 200)
+            callback(xmlHttp.responseText);
+    }
+    xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+    xmlHttp.send(null);
+  };
+  httpGetAsync(
+//
+  _nav.xml,writeNavbar);
+</script>
+  </xhtml:body>
+</xhtml:html>

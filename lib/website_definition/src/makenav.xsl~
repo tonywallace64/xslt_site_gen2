@@ -1,0 +1,26 @@
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+		xmlns:ax="abc" 
+		xmlns:xhtml="http://www.w3.org/1999/xhtml"
+version="1.0">
+
+<!--
+  <xsl:import href="ajw_utils.xsl" />
+-->
+  <xsl:template match='/site'>
+    <xsl:comment>Generated web pages</xsl:comment>
+    <site_pages>
+    <xsl:for-each select="./pages">
+      <xsl:apply-templates/>
+    </xsl:for-each>
+    </site_pages>
+  </xsl:template>
+
+
+<xsl:template match="pages" name="pages-template">
+    <xsl:element name="ax:file">
+      <xsl:attribute name="filename">
+	<xsl:value-of select="./url" />
+      </xsl:attribute>
+
+    </xsl:element>
+</xsl:template>

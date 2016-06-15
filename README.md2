@@ -1,0 +1,23 @@
+Purpose:  
+
+Part 1
+Learn how to include html portions from an external document.
+This allows navigation bars (and other portions to be managed separately from content.
+Part 2
+Modify existing site generation templates to generate navigation bars as separate content loaded into pages.
+
+Strategy:
+
+Use a static website using a cowboy webserver to deliver this content.
+Use makefile for compile and run.
+
+When building a page for a site there are two files needed: <pagename>.xml and pagedata.xml.  The pagedata.xml is needed for site specific information used in every page.  It is also used to generate indexes and other data to be included in the page.  <Pagename>.xml is used as the source for page specific infomation.
+
+The approach for handling this is to use a file reference in the stylesheet to pagedata.xml as shown in stackoverflow (1).
+
+
+References:
+(1) http://stackoverflow.com/questions/1510688/xslt-a-simple-way-to-merge-xml-files
+
+
+

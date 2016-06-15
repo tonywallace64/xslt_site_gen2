@@ -1,0 +1,40 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml"  xmlns:ax="abc">
+  <name>Main</name>
+  <title>Main</title>
+  <source>index.xml</source>
+  <url>index.xhtml</url>
+  <keywords>xml</keywords>
+  <pageheader>Greenrose</pageheader>
+<content xmlns:xh="http://www.w3.org/1999/xhtml">
+<xhtml:h1>Tony's Main Page</xhtml:h1>
+<xhtml:p>This website is currently documenting procedures
+for making itself and keeping itself updated.  At
+the moment this is limited to static sites but as
+extra facilities are added these too will be documented
+here. The source code for this project is located at
+~/Projects/WebTechnologies/LearningXML/site_data</xhtml:p>
+<xhtml:ol>
+<xhtml:li><xhtml:a href="intro.xhtml">Generating a wesite with XSLT</xhtml:a></xhtml:li>
+<xhtml:li><xhtml:a href="publickey.xhtml">Contact me securely</xhtml:a></xhtml:li>
+<xhtml:li><xhtml:a href="addwebsite.xhtml">Admin guide</xhtml:a></xhtml:li>
+<xhtml:h3>Change Log</xhtml:h3>
+<xhtml:h4>31 May 2016</xhtml:h4>
+<xhtml:ul>  
+  <xhtml:li>Include pages to test html file upload</xhtml:li>
+  <xhtml:li>Put reference to source location</xhtml:li>
+</xhtml:ul>
+<xhtml:h4>10 June 2015</xhtml:h4>
+<xhtml:ul>
+  <xhtml:li>Set declarations for xhtml</xhtml:li>
+  <xhtml:li>Add xhtml namespace prefixes for all markup elements</xhtml:li>
+</xhtml:ul>
+<xhtml:h4>11 June 2015</xhtml:h4>
+<xhtml:ul>
+  <xhtml:li>Change code colour for better layout</xhtml:li>
+  <xhtml:li>Put project under source control</xhtml:li>
+</xhtml:ul>
+
+</xhtml:ol>
+
+</content>
+</page>

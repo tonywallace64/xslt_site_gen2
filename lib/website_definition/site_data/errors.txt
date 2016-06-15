@@ -1,0 +1,6330 @@
+running .erlang in home directory
+.erlang completed
+No change to element stack which is empty
+
+No change to element stack which is empty
+
+No change to element stack which is empty
+
+No change to element stack which is empty
+
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+write_name_decl prefix=xi url=http://www.w3.org/2001/XInclude
+write_name_decl prefix=xf url=http://www.w3.org/2002/xforms
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=a
+  Attributes=[{attribute,"href",[],[],"mailto:tony@tony.gen.nz"}]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=img
+  Attributes=[{attribute,"width",[],[],"100%"},
+              {attribute,"left",[],[],"250px"},
+              {attribute,"src",[],[],"images/hw.png"}]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=ax url=abc
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=html
+  Attributes=[]
+  Namespaces=[{"xh","http://www.w3.org/1999/xhtml"}]
+write_name_decl prefix=xh url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h1
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ol
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=a
+  Attributes=[{attribute,"href",[],[],"intro.xhtml"}]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=a
+  Attributes=[{attribute,"href",[],[],"publickey.xhtml"}]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=a
+  Attributes=[{attribute,"href",[],[],"addwebsite.xhtml"}]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h3
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h4
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h4
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h4
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=a
+  Attributes=[{attribute,"href",[],[],"mailto:tony@tony.gen.nz"}]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=img
+  Attributes=[{attribute,"width",[],[],"100%"},
+              {attribute,"left",[],[],"250px"},
+              {attribute,"src",[],[],"images/hw.png"}]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=ax url=abc
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=html
+  Attributes=[]
+  Namespaces=[{"xh","http://www.w3.org/1999/xhtml"}]
+write_name_decl prefix=xh url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xh
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=ax url=abc
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"ax","abc"}]
+write_name_decl prefix=ax url=abc
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=a
+  Attributes=[{attribute,"href",[],[],"need to put url here"}]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ol
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"ax","abc"}]
+write_name_decl prefix=ax url=abc
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"ax","abc"}]
+write_name_decl prefix=ax url=abc
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"ax","abc"}]
+write_name_decl prefix=ax url=abc
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h3
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"ax","abc"}]
+write_name_decl prefix=ax url=abc
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=ax url=abc
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"ax","abc"}]
+write_name_decl prefix=ax url=abc
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"ax","abc"}]
+write_name_decl prefix=ax url=abc
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=xi url=http://www.w3.org/2001/XInclude
+write_name_decl prefix=ax url=abc
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"ax","abc"}]
+write_name_decl prefix=ax url=abc
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=xi url=http://www.w3.org/2001/XInclude
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"ax","abc"}]
+write_name_decl prefix=ax url=abc
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=a
+  Attributes=[{attribute,"href",[],[],
+                         "http://relaxng.org/spec-20011203.html"}]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=a
+  Attributes=[{attribute,"href",[],[],"http://relaxng.org/compact.html"}]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=ax url=abc
+write_name_decl prefix=xi url=http://www.w3.org/2001/XInclude
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"ax","abc"}]
+write_name_decl prefix=ax url=abc
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h3
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=a
+  Attributes=[{attribute,"href",[],[],"splitpages.escript"}]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h3
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=a
+  Attributes=[{attribute,"href",[],[],"xslt_extn.erl"}]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=ax url=abc
+write_name_decl prefix=xi url=http://www.w3.org/2001/XInclude
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"ax","abc"}]
+write_name_decl prefix=ax url=abc
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=a
+  Attributes=[{attribute,"href",[],[],"static.html#xslt_extn"}]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h3
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h3
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=xi url=http://www.w3.org/2001/XInclude
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"ax","abc"}]
+write_name_decl prefix=ax url=abc
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ol
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h3
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h3
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h4
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h4
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h4
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h5
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h4
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h3
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h4
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h3
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"ax","abc"}]
+write_name_decl prefix=ax url=abc
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h4
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h4
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ol
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h4
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"ax","abc"}]
+write_name_decl prefix=ax url=abc
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h3
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h3
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=a
+  Attributes=[{attribute,"href",[],[],"mailto:tony@tony.gen.nz"}]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=ax url=abc
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=html
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=a
+  Attributes=[{attribute,"href",[],[],"mailto:tony@tony.gen.nz"}]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=ax url=abc
+write_name_decl prefix=xi url=http://www.w3.org/2001/XInclude
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"xh","http://www.w3.org/1999/xhtml"}]
+write_name_decl prefix=xh url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h1
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=pre
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=p
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=h2
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=em
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ol
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=ax url=abc
+write_name_decl prefix=xi url=http://www.w3.org/2001/XInclude
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{[],"http://www.w3.org/1999/xhtml"}]
+write_name_decl (no prefix) url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_name_decl prefix=ax url=abc
+write_name_decl prefix=xi url=http://www.w3.org/2001/XInclude
+write_name_decl prefix=xhtml url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=ax
+  Tag=content
+  Attributes=[]
+  Namespaces=[{"xh","http://www.w3.org/1999/xhtml"}]
+write_name_decl prefix=xh url=http://www.w3.org/1999/xhtml
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ul
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=ol
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+write_open_tag 
+  Prefix=xhtml
+  Tag=li
+  Attributes=[]
+  Namespaces=[]
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+Push start element onto stack
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+
+No change to element stack option2
+

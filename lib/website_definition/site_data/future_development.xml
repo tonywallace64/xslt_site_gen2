@@ -1,0 +1,37 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <name>FutureDev</name>
+  <title>Future Developments</title>
+  <source>future_development.xml</source>
+  <url>future_development.xhtml</url>
+  <keywords/>
+  <pageheader/>
+<content>
+<xhtml:p>
+This page represents a snapshot of intentions at the time
+of publishing.  It is subject to revision without notice.
+</xhtml:p>
+<xhtml:h4>Unordered list of unscheduled tasks</xhtml:h4>
+<xhtml:ul>
+<xhtml:li>Build dynamic site for Peter's Videos</xhtml:li>
+<xhtml:li>Login protected private pages</xhtml:li>
+<xhtml:li>Data storage and retrieval for web pages</xhtml:li>
+<xhtml:li>Remote administration</xhtml:li>
+<xhtml:li>Source code control</xhtml:li>
+<xhtml:li>Dynamic content websites</xhtml:li>
+</xhtml:ul>
+<xhtml:h4>Programme</xhtml:h4>
+<xhtml:ol>
+<xhtml:li>Disable lid switch on Eee-PC</xhtml:li>
+<xhtml:li>Tidy up this documentation</xhtml:li>
+<xhtml:li>Preliminary design for web data storage and retrieval</xhtml:li>
+<xhtml:li>Implement sourcecode control</xhtml:li>
+<xhtml:li>Develop release v1.01</xhtml:li>
+</xhtml:ol>
+<xhtml:h4>Develop with next release v1.01</xhtml:h4>
+<xhtml:ul>
+<xhtml:li>No-compile site configuration</xhtml:li>
+<xhtml:li>Stylesheets part of site definition xml document</xhtml:li>
+<xhtml:li>Improved graphic for tony.gen.nz</xhtml:li>
+</xhtml:ul>
+</content>
+</page>

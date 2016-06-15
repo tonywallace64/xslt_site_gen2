@@ -1,0 +1,3 @@
+<root xmlns:ax="http://www.w3.org/2001/XInclude">
+  <ax:include href="test/input/insertfile.xml"/>
+</root>

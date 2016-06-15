@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <uri resource="publickey.xml" uri="../src/site.rnc"/>
+  <uri resource="rest.xml" uri="../src/site.rnc"/>
+  <uri resource="future_development.xml" uri="../src/site.rnc"/>
+  <uri resource="intro.xml" uri="../src/site.rnc"/>
+  <uri resource="admin_troubleshooting.xml" uri="../src/site.rnc"/>
+  <uri resource="admin_todo.xml" uri="../src/site.rnc"/>
+  <uri resource="xpath.xml" uri="../src/site.rnc"/>
+  <uri resource="namespaces.xml" uri="../src/site.rnc"/>
+  <uri resource="whatsxml.xml" uri="../src/site.rnc"/>
+  <uri resource="fullsite.xml" uri="../src/site.rnc"/>
+  <uri resource="staticsite.xml" uri="../src/site.rnc"/>
+  <uri resource="validation.xml" uri="../src/site.rnc"/>
+  <uri resource="intro.xml" uri="../src/site.rnc"/>
+  <uri resource="pagedata.xml" uri="../src/site.rnc"/>
+</locatingRules>

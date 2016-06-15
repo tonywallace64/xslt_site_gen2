@@ -1,0 +1,105 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ax="abc">
+  <name>whatsxml</name>
+  <title>What is XML</title>
+  <source>whatsxml.xml</source>
+  <url>whatsxml.xhtml</url>
+  <keywords>xml</keywords>
+  <pageheader>Greenrose</pageheader>
+<content>
+<xhtml:p>XML which is an abbreviation of eXtensible markup language,
+is a <xhtml:a href="need to put url here">standard</xhtml:a> for formatting data.</xhtml:p>
+<xhtml:p>An XML file has the following structure:</xhtml:p>
+<xhtml:ol>
+<xhtml:li>An XML header</xhtml:li>
+<xhtml:li>An optional list of processing instructions</xhtml:li>
+<xhtml:li>A single root element holding all data</xhtml:li>
+</xhtml:ol>
+<xhtml:p>The XML header item is recommended, not required by the standard.  
+Processing instructions
+can be used to great effect on occasion.  Elements contain an attribute
+list and child elements.  The format is simple and widely understood,
+this simple structure does however have its shortcomings.</xhtml:p>
+<xhtml:ul>
+  <xhtml:li>Despite XML being tree structured, the headers and processing instructions prevent XML subtrees being merged to form larger trees in a simple fashion.</xhtml:li>
+  <xhtml:li>As an XML document has a single root, data cannot be appended by simply appending to the end of the file.  The new data must instead be included within the root element and the entire tree rewritten.</xhtml:li></xhtml:ul>
+<xhtml:h2>Example1: An XML file</xhtml:h2>
+<xhtml:p>This example shows most features of xml, including:</xhtml:p>
+<xhtml:ul>
+<xhtml:li>an xml declaration</xhtml:li>
+<xhtml:li>a comment</xhtml:li>
+<xhtml:li>a root element containing an attribute/value pair</xhtml:li>
+<xhtml:li>a nested element</xhtml:li>
+</xhtml:ul>
+<xhtml:p>
+Copy the following xml into a file with and open the file in your web browser:</xhtml:p>
+<xhtml:pre>
+<![CDATA[
+<?xml version=1.0?>
+<!-- This is a comment --> 
+<root attribute="attributevalue">
+   This text is in the root element
+   <tag-with-close/>
+</root>
+]]>
+</xhtml:pre>
+
+<xhtml:h2>Example2: XML with repeating structures</xhtml:h2>
+<xhtml:p>When storing an invoice in a relational database
+repeating structures such as line items are normalised
+into a separate table.  XML allows related data to be
+stored together.</xhtml:p>
+<xhtml:pre>
+<![CDATA[
+<?xml version=1.0?>
+<invoice>
+  <invnum>3021</invnum>
+  <invdate>2015-03-22</invdate>
+  <customer>123</customer>
+  <total>5.01</total>
+  <items>
+    <item><id>1021</id><name>widget</name><qty>2</qty><price>1.00</price><linetot>2.00</linetot>
+    <item><id>1</id><name>unl91</name><qty>3.02</qty><price>0.999</price><linetot>3.01</linetot>
+  </items>
+</invoice>
+]]>
+</xhtml:pre>
+
+<xhtml:h2>Example3: Nested XML structure</xhtml:h2>
+<xhtml:p>Some problems are naturally tree structured.  In this case
+web pages can contain web pages.  The nesting of the xml
+relecting the nesting of the pages.</xhtml:p>
+<xhtml:pre>
+<![CDATA[
+<?xml version=1.0?>
+<site>
+  <url>www.mysite.com</url>
+  <pages>
+    <page>
+      <url>index.xhtml</url>
+    </page>
+    <page>
+      <url>contact.xhtml</url>
+    </page>
+    <page>
+      <url>content.xhtml</url>
+      <pages>
+	<page>
+	  <url>products.xhtml</url>
+	</page>
+	<page>
+	  <url>shop.xhtml</url>
+	</page>
+      </pages>
+    </page>
+  </pages>
+  <pages>
+    <page>
+      <url>admin.xhtml</url>
+    </page>
+  </pages>
+</site>
+]]>
+</xhtml:pre>
+
+</content>
+</page>

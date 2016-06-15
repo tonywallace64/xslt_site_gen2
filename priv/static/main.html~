@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head />
+  <body>
+    <p id="navbar" onclick="loadBar()">Click to load.</p>
+<scipt>
+  function loadBar() {
+  document.getElementById("navbar").innerHTML="Navbar loaded";}
+</script>
+  </body>
+</html>

@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+
+filename:whatsxml.html<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:xf="http://www.w3.org/2002/xforms"><head><meta name="Keywords" content="xml"/><title>What is XML</title><meta name="viewport" content="width=device-width, initial-scale=1"/><style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  a:link {color:#FFFFFF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</style></head><body><nav><h2>Contact</h2><ul><li>Phone: 09 238 0407</li><li><a href="mailto:greenrose@xtra.co.nz">Email: greenrose@xtra.co.nz</a></li><li xmlns=""><a href="whatsxml.html">whatsxml</a></li><li xmlns=""><a href=""/></li><li xmlns=""><a href="xpath.html">xpath</a></li><li xmlns=""><a href="xslt.html">xslt</a></li><li xmlns=""><a href="static.html">static site</a></li></ul></nav><section><a href=""/><br/><content xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="">
+<p>XML which is an abbreviation of eXtensible markup language,
+is a <a href="need to put url here">standard</a> for formatting data.</p>
+<p>An XML file has the following structure:</p>
+<ol>
+<li>An XML header</li>
+<li>An optional list of processing instructions</li>
+<li>A single root element holding all data</li>
+</ol>
+<p>The XML header item is recommended, not required by the standard.  
+Processing instructions
+can be used to great effect on occasion.  However both of these data
+elements make it impossible to include XML files inside other XML files
+with xinclude.  Simlarly the single root requirement makes a flat
+file consisting of a sequence of data trees not an XML file.  Thus
+it is impossible to extend an XML file by simply appending data to
+the end. That seems silly to me.  If the standard required a root
+element surely the header and processing instructions could have
+been part of the the header, and then the structure would have been
+regular and xinclude would have worked! Enough complaining!  It is what it is. Inspite of its faults the fact that exist in the standard,
+the fact we have a standarda standard exists allows standard tools that make us all
+richer.  These tools can also help us work around the formats
+shortcomings.</p>
+<h2>Example1: An XML file</h2>
+<p>This example shows most features of xml, including:
+<ul>
+<li>an xml declaration</li>
+<li>a comment</li>
+<li>a root element containing an attribute/value pair</li>
+<li>a nested element</li>
+</ul>
+</p>
+Copy the following xml and open in your web browser:
+
+&lt;?xml version=1.0?&gt;
+&lt;!-- This is a comment --&gt; 
+&lt;root attribute="attributevalue"&gt;
+This text is in the &amp;lt;root&amp;gt; element
+&lt;tag-with-close/&gt;
+&lt;/root&gt;
+
+<h2>Example2: XML with repeating structures</h2>
+<p>When storing an invoice in a relational database
+repeating structures such as line items are normalised
+into a separate table.  XML allows related data to be
+stored together.</p>
+
+&lt;?xml version=1.0?&gt;
+&lt;invoice&gt;
+  &lt;invnum&gt;3021&lt;/invnum&gt;
+  &lt;invdate&gt;2015-03-22&lt;/invdate&gt;
+  &lt;customer&gt;123&lt;/customer&gt;
+  &lt;total&gt;5.01&lt;/total&gt;
+  &lt;items&gt;
+    &lt;item&gt;&lt;id&gt;1021&lt;/id&gt;&lt;name&gt;widget&lt;/name&gt;&lt;qty&gt;2&lt;/qty&gt;&lt;price&gt;1.00&lt;/price&gt;&lt;linetot&gt;2.00&lt;/linetot&gt;
+    &lt;item&gt;&lt;id&gt;1&lt;/id&gt;&lt;name&gt;unl91&lt;/name&gt;&lt;qty&gt;3.02&lt;/qty&gt;&lt;price&gt;0.999&lt;/price&gt;&lt;linetot&gt;3.01&lt;/linetot&gt;
+  &lt;/items&gt;
+&lt;/invoice&gt;
+
+<h2>Example3: Nested XML structure</h2>
+<p>Some problems are naturally tree structured.  In this case
+web pages can contain web pages.  The nesting of the xml
+relecting the nesting of the pages.</p>
+
+&lt;?xml version=1.0?&gt;
+&lt;site&gt;
+  &lt;url&gt;www.mysite.com&lt;/url&gt;
+  &lt;pages&gt;
+    &lt;page&gt;
+      &lt;url&gt;index.html&lt;/url&gt;
+    &lt;/page&gt;
+    &lt;page&gt;
+      &lt;url&gt;contact.html&lt;/url&gt;
+    &lt;/page&gt;
+    &lt;page&gt;
+      &lt;url&gt;content.html&lt;/url&gt;
+      &lt;pages&gt;
+	&lt;page&gt;
+	  &lt;url&gt;products.html&lt;/url&gt;
+	&lt;/page&gt;
+	&lt;page&gt;
+	  &lt;url&gt;shop.html&lt;/url&gt;
+	&lt;/page&gt;
+      &lt;/pages&gt;
+    &lt;/page&gt;
+  &lt;/pages&gt;
+  &lt;pages&gt;
+    &lt;page&gt;
+      &lt;url&gt;admin.html&lt;/url&gt;
+    &lt;/page&gt;
+  &lt;/pages&gt;
+&lt;/site&gt;
+
+
+
+</content></section></body></html>
+filename:<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xf="http://www.w3.org/2002/xforms"><head><meta name="Keywords" content=""/><title>Namespaces</title><meta name="viewport" content="width=device-width, initial-scale=1"/><style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  a:link {color:#FFFFFF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</style></head><body><nav><h2>Contact</h2><ul><li>Phone: 09 238 0407</li><li><a href="mailto:greenrose@xtra.co.nz">Email: greenrose@xtra.co.nz</a></li><li xmlns=""><a href="whatsxml.html">whatsxml</a></li><li xmlns=""><a href=""/></li><li xmlns=""><a href="xpath.html">xpath</a></li><li xmlns=""><a href="xslt.html">xslt</a></li><li xmlns=""><a href="static.html">static site</a></li></ul></nav><section><a href=""/><br/><content xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="">
+<p>This, the third stop in our sojourn in XML is about name spaces.
+Up until now we have been inventing tagnames that suit us without
+regard to what other are doing.  In order to share data around the
+web everyone needs to be able to make their names unique, and this
+is the purpose of namespaces.</p>
+<p>In XML we leaverage off the uniqueness of URI identifiers to
+form a scheme where XML authors can be confident of the uniqueness
+of the names they use.  These unique names are called expanded names.</p>
+<p>The abstract for the XML Namespaces standard succintly puts it: "XML namespaces provide a simple method for qualifying element and attribute names used in Extensible Markup Language documents by associating them with namespaces identified by IRI references."</p>
+<p>These namespaces are defined by xmlns attributes and attributes from the xmlns namespace.  For example:
+
+&lt;root xmlns:xf="http://www.w3.org/2002/xforms"
+associates all tag and attributes starting with "xf:" to the xforms namespace.
+This marks such tags and attributes as being part of the xforms.  An xforms
+model element is thus specified as:
+
+&lt;xf:model&gt;
+</p>
+<p>These namespaces allow different xml languages with different semantics
+to be freely mixed in a single document.  To use xforms still requires an xforms processor to be installed on your system.</p>
+<p>The name xf:model is an example of a <em>qualified name</em>.  A unique identifier is generated by expanding the prefix (in this case "xf") by its associated string (in this case "http://www.w3.org/2002/xforms".  The resulting name is called an <em>expanded name</em>.</p>
+<p>This namespace mechanism allows xml tools to be extended in a modular fashion.</p>
+</content></section></body></html>
+filename:xpath.html<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:xf="http://www.w3.org/2002/xforms"><head><meta name="Keywords" content="xml"/><title>xpath</title><meta name="viewport" content="width=device-width, initial-scale=1"/><style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  a:link {color:#FFFFFF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</style></head><body><nav><h2>Contact</h2><ul><li>Phone: 09 238 0407</li><li><a href="mailto:greenrose@xtra.co.nz">Email: greenrose@xtra.co.nz</a></li><li xmlns=""><a href="whatsxml.html">whatsxml</a></li><li xmlns=""><a href=""/></li><li xmlns=""><a href="xpath.html">xpath</a></li><li xmlns=""><a href="xslt.html">xslt</a></li><li xmlns=""><a href="static.html">static site</a></li></ul></nav><section><a href=""/><br/><content xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="">
+<h2>xpath axes</h2>
+<p>To understand xpath it is necessary to have in mind two models of the xml document at the same time:
+<ul>
+<li>Xml document as a tree</li>
+<li>Xml document as a list</li>
+</ul></p>
+<p>
+If you take any xml document and print it out, and a set of coloured highlighters.  Select a node and call it the current node colour it yellow.  This is the <em>self</em> axis.  Firstly considering the document as a tree, this node will have a parent node, which will in turn have a parent node up until the root node is reached.  Colour each of these pink. In xpath, this is the <em>ancestor</em> axis.  The current node may have children.  Colour these, and their decendents blue, this is the <em>decendent axis</em>.  The uncoloured nodes that are above the current document constitute the <em>preceeding axis</em>, and those uncoloured nodes following the current node are the <em>following axis</em>.  Finally those other nodes with the same parent which are preceeding the current node are <em>preceeding-sibling axis</em>.  The other nodes with the same parent but going down the page are the <em>following-sibling axis</em>.</p>
+<p>There are other axes defined in the standard, these are easily derivable from those listed above.</p>
+<h2>axis ordering</h2>
+<p>In every case the position on the axis is related to how far the node is from the current node.  The parent node is position 1 on the ancestor axis, the grandparent position 2 on the ancestor axis.  These positions are in document or reverse document order.  Document order is how close the node is on the printed page going from top to bottom.  Reverse document order is going on the page from bottom to top. Preceeding and ancestor nodes are in reverse document order, following and decendent nodes in document order.</p>
+<h2>location paths</h2>
+An xpath expression may result in a node set.  That is a set of qualifying nodes. The expression to find all decendents of the current node is "decendents::node()".  The axis comes first, and then a node test which in this case returns any type of node whatsoever.  A location expression can contain several parts each separated by /.  Each part can be filtered by an expression in [].
+<example>
+  <title>Find closest ancestor page which has a url node as it's child</title>
+  <content>ancestor::page[child::url][position()=1]</content>
+</example>   
+<h2>Abbreviated syntax</h2>
+The abbreviated syntax is as follows:
+<ul>
+<li><p>omitting an axis is short for "child::"</p></li>
+<li><p>"." represents "self::node()"</p></li>
+<li><p>".." represents "parent::node()"</p></li>
+<li><p>"@" represents "attribute::"</p></li>
+<li><p>"//" represents "decendant-or-self::"</p></li>
+<li><p>"[number]" represents "[position()=number]"</p></li>
+</ul>
+Thus the previous example could be written "ancestor::page[url][1]"
+</content></section></body></html>
+filename:xslt.html<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:xf="http://www.w3.org/2002/xforms"><head><meta name="Keywords" content="xml"/><title>xslt</title><meta name="viewport" content="width=device-width, initial-scale=1"/><style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  a:link {color:#FFFFFF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</style></head><body><nav><h2>Contact</h2><ul><li>Phone: 09 238 0407</li><li><a href="mailto:greenrose@xtra.co.nz">Email: greenrose@xtra.co.nz</a></li><li xmlns=""><a href="whatsxml.html">whatsxml</a></li><li xmlns=""><a href=""/></li><li xmlns=""><a href="xpath.html">xpath</a></li><li xmlns=""><a href="xslt.html">xslt</a></li><li xmlns=""><a href="static.html">static site</a></li></ul></nav><section><a href=""/><br/><content xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="">
+<h2>What is xslt?</h2>
+<p>XSLT is an XML language designed to convert XML documents to other XML formats,
+expecially XSL-FO.
+XSL-FO is a stylesheet language, often used for formatting documents
+prior to conversion to PDF. It can be used to generate other formats and is useful to convert
+arbitary XML documents into XHTML.</p>
+<h2>Getting Started</h2>
+<example>
+<title>A simple XSLT stylesheet</title>
+<content>
+
+&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"&gt;
+  &lt;xsl:template match="text()"/&gt;
+  &lt;xsl:template match='/site'&gt;
+    &lt;xsl:for-each select="./pages/page"&gt;
+      &lt;xsl:choose&gt;
+	&lt;xsl:when test="ancestor::pages[navtype='mesh']"&gt;
+	  Found
+	&lt;/xsl:when&gt;
+      &lt;/xsl:choose&gt;
+    &lt;/xsl:for-each&gt;
+  &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+
+<p>The first line declares this XML to be an xslt stylesheet.  Note the use of the namespace.  The second line rule overrides default text node processing.  The default is to output text nodes.  This rule says do nothing. Note the match expressions on the &lt;xsl:template&gt; are xpath expressions.  The third line matches a root element "site". Inside this element this root element becomes the self() or current node.  On the next line the for-each iterates through each /site/pages/page node, each node in turn becoming the self node.  For each page having an ancestor pages element, containing an element navtype whose text value is "mesh", the value Found is output.  The reader should also note the test attribute of the when element is set to an xpath expression.   An empty nodeset is false.</p>
+</content>
+</example>
+<p>The above example shows the interplay of xml technologies, XPATH, XSLT and 
+XML Namespaces.  Once again it emphasises the need to grasp the basics such
+as Namespaces and XPATH before moving onto other technologies such as XSLT.</p>
+<p>There is much more to XSLT than the simple example shown here, the reader
+is asked to do check out some of the online tutorials and download the XSLT standard.</p>
+<h2>XSLT processors</h2>
+<p>Many XSLT processors only process version 1.0 XSLT, which uses XPATH 1.0.  Support for this standard is however widespread.</p>
+<ul>
+<li><p>Firefox supports XSLT 1.O.  To transform your document in the browser, insert a processing instruction such as &lt;?xml-stylesheet href="xsltforms/xsltforms.xsl" type="text/xsl"?&gt; at the top of the file.</p></li>
+<li><p>The linux command xsltproc also support XSLT 1.0.</p></li>
+</ul>  
+</content></section></body></html>
+filename:static.html<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:xf="http://www.w3.org/2002/xforms"><head><meta name="Keywords" content="xml"/><title>static site</title><meta name="viewport" content="width=device-width, initial-scale=1"/><style type="text/css">
+  body {color:blue;}  
+  p  {line-height=130%;}
+  h1 {text-align:center;}
+  h2 {text-align:center;}
+  h3 {text-align:center;}
+  a:link {color:#FFFFFF;}
+  a:visited {color:#C0C000;}
+  nav {
+  background-image:url(images/grgcleft2.png);
+  position: absolute;
+  top :0px;
+  bottom:0;
+  left: 0;
+  width: 240px;
+}
+  section {
+  position: relative;
+  margin-left: 250px;
+}
+</style></head><body><nav><h2>Contact</h2><ul><li>Phone: 09 238 0407</li><li><a href="mailto:greenrose@xtra.co.nz">Email: greenrose@xtra.co.nz</a></li><li xmlns=""><a href="whatsxml.html">whatsxml</a></li><li xmlns=""><a href=""/></li><li xmlns=""><a href="xpath.html">xpath</a></li><li xmlns=""><a href="xslt.html">xslt</a></li><li xmlns=""><a href="static.html">static site</a></li></ul></nav><section><a href=""/><br/><content xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="">
+<h2>Why  build a site this way?</h2>
+<p>In this lesson we will build a site with static content
+using the tools we have learnt thus far.  Why do it this way?
+A website can be viewed as an organised collection of pages.</p>
+<p>Editing pages on an adhoc basis can lead to inconsistency
+between pages.  This is partially overcome using shared css 
+stylesheets, however this does not model the relationship 
+between the pages.  Xml can model the relationship between
+the web pages, be they nested or disjoint sets.</p>
+<p>Generating HTML in this way is problematic in that
+the latest HTML 5 is <em>not</em> xml compatible. By default
+XSLT will collapse a opening closing tag pair into a self closing
+tag that will cause problems in HTML 5. When this causes problems
+put an XML comment between them to keep them apart.</p>
+<p>Xml include is used to copy pages into the XML dataset at
+appropriate places.  As XSLT 1.0 does not have the ability
+to save each page to a separate file, this is done by an external
+script written in Erlang.  Any suitable language could be used
+for this task.</p>
+<h2>The template</h2>
+<h2>The data files</h2>
+<code>
+  <xi:include href="pagedata.xml"/>
+</code>
+
+</content></section></body></html>

@@ -1,0 +1,18 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:ax="abc">
+  <name>split_pages</name>
+  <title>Split Pages</title>
+  <url>splitpages.xhtml</url>
+  <keywords>xml</keywords>
+  <pageheader>Greenrose</pageheader>
+<ax:content xmlns:ax="abc">
+<xhtml:h3>splitpages.escript</xhtml:h3>
+<xhtml:p>In this case the make_web.xsl emits a line starting with
+"filename: FileNameValue" where a new file named FileNameValue
+should be started.
+</xhtml:p>
+<xhtml:pre>
+<xi:xinclude href="splitpages.escript" parse="text" />
+</xhtml:pre>
+</ax:content>
+</page>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html><xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:exslt="http://exslt.org/strings">
+  <xhtml:head>
+    <xhtml:meta name="Keywords" content=""/>
+    <xhtml:title>Troubleshooting</xhtml:title>
+    <xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <xhtml:style type="text/css">
+	  body {color:blue;}  
+	  p  {line-height=130%;}
+	  h1 {text-align:center;}
+	  h2 {text-align:center;}
+	  h3 {text-align:center;}
+	  pre { color:#800080;}
+	  a:link {color:#0000FF;}
+	  a:visited {color:#C0C000;}
+	  nav {
+	    background-image:url(images/grgcleft2.png);
+	    position: absolute;
+	    top :0px;
+	    bottom:0;
+	    left: 0;
+	    width: 240px;
+	    }
+	 section {
+	    position: relative;
+	    margin-left: 250px;
+	    }
+	</xhtml:style>
+  </xhtml:head>
+  <xhtml:body>
+    <xhtml:div id="navbar"/>
+    <xhtml:section>
+      <xhtml:a href="index.xhtml">
+        <xhtml:img xmlns:xf="http://www.w3.org/2002/xforms" src="images/hw.png" left="250px" width="100%"/>
+      </xhtml:a>
+      <xhtml:br/>
+      <xhtml:ul xmlns:ax="abc">
+<symptom>Built system not working correctly</symptom>
+<possible_cause>Conflict between multiple installed copies</possible_cause>
+<corrective_actions>
+<xhtml:ol>
+<xhtml:li>Remove all copies from usr/lib/erlang and usr/local/erlang</xhtml:li>
+<xhtml:li>Reinstall with make install from latest version</xhtml:li>
+</xhtml:ol>
+</corrective_actions>
+<symptom>Laptop suspends when lid closed (not good when using laptop as server)</symptom>
+<possible_cause>Lid switch not ignored in /etc/systemd/logind.conf</possible_cause>
+<corrective_actions>
+Set entry HandleLidSwitch to ignore in /etc/systemd/logind.conf
+</corrective_actions>
+</xhtml:ul>
+    </xhtml:section>
+    <xhtml:script>
+//  test1
+  function writeNavbar(Contents)
+  {
+  document.getElementById("navbar").innerHTML=Contents;
+  };
+  function httpGetAsync(theUrl, callback)
+  {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() { 
+        if (xmlHttp.readyState == 4 &amp;&amp; xmlHttp.status == 200)
+            callback(xmlHttp.responseText);
+    }
+    xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+    xmlHttp.send(null);
+  };
+  httpGetAsync(
+//
+  "admin_nav.xml",writeNavbar);</xhtml:script>
+  </xhtml:body>
+</xhtml:html>

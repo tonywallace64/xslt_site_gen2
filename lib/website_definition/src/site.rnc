@@ -1,0 +1,77 @@
+namespace xi="http://www.w3.org/2001/XInclude"
+namespace ax="abc"
+
+start = (sitespec | pagespec)
+
+# This file specifies a website definition
+# The data specified here is combined with
+# the site template to produce the website.
+
+# This data is accessed by xpath, formed
+# into nodesets and inserted into the template
+# at defined places.  The content of the
+# elements is thus fragments of the target language
+# (normally html).
+
+# This file validates the site file
+# and the individual pages.  These individual
+# pages may be in separate files for modularity.
+# For this reason xinclude statements are
+# accepable page definitions in the site file.
+
+anyElement =
+  element * 
+  {
+    (attribute * { text }
+     | text
+     | anyElement) *}
+
+nodeset =
+  (anyElement* | text )  
+
+pagespec =
+(
+  element xi:include
+  {
+    attribute href { text },
+    attribute parse { "xml" }?
+  } |
+  element page
+  {
+    attribute schema { "site.rnc" }?,
+    element name { text },
+    element title { text },
+    element source { text },
+    element url { text },
+    element keywords { text },
+    element pageheader { text },
+    element file_headers { text }?,
+    element header { nodeset }? ,
+    element todo {text}* ,
+    element content { nodeset }
+  }
+)
+
+sitespec =
+  element site 
+  {
+    attribute schema { "site.rnc" }?,
+
+    element siteurl{ text },
+    element html_dir{ text },
+    element resources{
+      element copydir {text}
+    },
+    element file_headers {text},
+    element pages
+    {
+      attribute id { text },
+      element homepage { text },
+      element navtype { "mesh" | "list" },
+      element contact-phone {  nodeset  },
+      element contact-email {  nodeset  },
+      element file_headers { text }?,
+      element banner_image { nodeset },
+      pagespec +
+    } +
+  }

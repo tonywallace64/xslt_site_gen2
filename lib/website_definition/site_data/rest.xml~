@@ -1,0 +1,37 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <name>REST Resources</name>
+  <title>REST Resources</title>
+  <url>rest.xhtml</url>
+  <keywords>REST</keywords>
+  <pageheader/>
+  <ax:content xmlns:ax="abc">
+<xhtml:h3>Rest is a stateless protocol for storing/retrieving data using HTTP</xhtml:h3>
+<xhtml:p>The following resource classes have been defined for this purpose:</xhtml:p>
+<xhtml:ul>
+  <xhtml:li><xhtml:em>static/[id]</xhtml:em> denotes a resource that will never change.  Such resources may be versions of a symbolic resource</xhtml:li>
+  <xhtml:li><xhtml:em>symbolic/[id]</xhtml:em> denotes a reference to something that changes.  When used with GET retrieves the latest version of the resource.  When used with PUT or POST causes the creation of a new static resource with the contained data.</xhtml:li>
+  <xhtml:li><xhtml:em>symbolic/[id];ts=[timestamp]</xhtml:em>For GET retrieves the static resource that was current at time ts.  For PUT, or POST a static resource with a creation stamp as given by ts is created.</xhtml:li>  
+  <xhtml:li><xhtml:em>collection;ts=[timestamp];filter=[filterexpr]</xhtml:em> denotes a set of static resources that existed at ts and for which filter is true.  Valid for GET.</xhtml:li>
+  <xhtml:li><xhtml:em>checkpointed</xhtml:em> Checkpointed resources are saved state from
+a particular point in time that have an external value.  For example a
+statement of account, once posted to a client should be saved.  Similarly
+stocktake counts are fixed references in time.</xhtml:li>
+  <xhtml:li><xhtml:em>calculate</xhtml:em> These resources imply a specific processing function over the data.</xhtml:li>
+</xhtml:ul>
+<xhtml:p>Id values for static and symbolic resources are globally unique.</xhtml:p>
+<xhtml:p>In this document the state of something represents the totality
+of all of its components.  The state of a system is all the data that
+is contained in that system.  So when transactions are applied to a
+system its state changes.</xhtml:p>
+<xhtml:p>The state of a symbolic resource can therefore be thought of as
+changing though time by the application of static resources.  The state
+of that symbolic resource is therefore equal to the value of the
+last static resource with a timestamp less than or equal to the
+symbolic resources timestamp.  It is important that the data retrieval
+mechanism be able to evaluate this quantity efficiently.</xhtml:p>
+<xhtml:h3>Issues</xhtml:h3>
+<xhtml:ul>
+  <xhtml:li><xhtml:em>Rest security.</xhtml:em> By definition REST is a stateless protocol.  Session cookies and other security mechanisms imply the existence of state.  One possible mechanism is to require clients to encrypt data with their private key so that each transmission can be properly validated.  Is this supported by browsers?</xhtml:li>
+</xhtml:ul>
+  </ax:content>
+</page>

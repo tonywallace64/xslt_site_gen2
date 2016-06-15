@@ -1,0 +1,42 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:ax="abc">
+  <name>insert_content</name>
+  <title>Insert Content</title>
+  <source>inserting_content</source>
+  <url>insert.xhtml</url>
+  <keywords>xml</keywords>
+  <pageheader>Greenrose</pageheader>
+<content>
+<xhtml:h2>Inserting Content</xhtml:h2>
+<xhtml:p>Xml include is used to copy pages into the XML dataset at
+appropriate places.  This is done in the <xhtml:a href="static.html#xslt_extn">xslt_extn</xhtml:a> sax parser.</xhtml:p>
+<xhtml:h3>Xml insert code</xhtml:h3>
+<xhtml:pre>
+insert_file_xml(Filename,State) ->
+    {ok,I} = maps:find(fileinclusions,State),
+    State2 = case ordsets:is_element(Filename,I) of
+	true ->
+	    throw("recursive xinclude on file "++Filename);
+	false ->
+	    State#{fileinclusions => ordsets:add_element(Filename,I)}
+    end,
+    {ok,Str} = file:read_file(Filename),
+    erlsom:parse_sax(Str,State2,fun doevent/2).
+</xhtml:pre>
+<xhtml:p>
+The bit of the insert_file_xml that does the work are the two lines at the bottom that read the file and then recursively call the erlsom:parse_sax procedure.  This allows xml file inclusions to be nested.</xhtml:p>
+<xhtml:h3>Text insert code</xhtml:h3>
+<xhtml:pre>
+-spec insert_file_text(string(), integer()) -> ok.
+insert_file_text(Filename,FD) -> 
+    {ok,Str} = file:read_file(Filename),
+    Str2 = xml_output_escaping(binary_to_list(Str)),
+    io:fwrite(FD,"~s",["&lt;pre&gt;"]),
+    io:fwrite(FD,"~s",[Str2]),
+    io:fwrite(FD,"~s",["&lt;/pre&gt;"]).
+    </xhtml:pre>
+<xhtml:p>
+This code reads the file, escapes all the xml characters, and writes it to output inside some &lt;pre&gt; tags to preserve the file formatting.
+</xhtml:p>
+</content>
+</page>

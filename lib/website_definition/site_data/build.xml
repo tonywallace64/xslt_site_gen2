@@ -1,0 +1,64 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <name>build</name>
+  <title>Building the website</title>
+  <source>build.xml</source>
+  <url>build.xhtml</url>
+  <keywords>xml</keywords>
+  <pageheader>Tony Gen</pageheader>
+<content>
+  <xhtml:p>
+Once the website static pages are generated, there is a need to
+build these pages into a webserver for deployment.  The process
+for this is as follows:
+  </xhtml:p>
+<xhtml:ol>
+<!-- Make these items internal links... -->
+<xhtml:li>Ensure there is a site directory in website/clients</xhtml:li>
+<xhtml:li>Copy the website data into website/clients/&lt;client&gt;/web_root</xhtml:li>
+<xhtml:li>Ensure there is a handler defined in website/siteconf</xhtml:li>
+<xhtml:li>Build the website</xhtml:li>
+<xhtml:li>Test the build</xhtml:li>
+<xhtml:li>Preparing the webserver</xhtml:li>
+<xhtml:li>Install</xhtml:li>
+</xhtml:ol>
+<xhtml:h3>Writing a siteconf</xhtml:h3>
+<xhtml:p>The following is siteconf file for this website.</xhtml:p>
+<xhtml:pre>
+<xi:include href="data/tonygenconfig.erl" parse="text"/>
+</xhtml:pre>
+<xhtml:h3>Building a website</xhtml:h3>
+  <xhtml:h4>The initial make</xhtml:h4>
+<xhtml:p>The build is started by executing the command:</xhtml:p>
+<xhtml:pre>
+  make
+</xhtml:pre><xhtml:p>
+In the website code directory.</xhtml:p>
+<xhtml:p>This build process uses relx to make an erlang install set.  Including
+all runtime libraries, compiled for the current architecture.  After this the
+content is then added to the build with the command:</xhtml:p>
+<xhtml:pre>
+  make static-pages
+</xhtml:pre>
+<xhtml:p>The content added by this command includes:</xhtml:p>
+<xhtml:ul>
+  <xhtml:li>Static web pages</xhtml:li>
+  <xhtml:li>Installation utilites</xhtml:li>
+</xhtml:ul>
+<xhtml:p>At the end of the build process, the release is stored in a directory _rel.</xhtml:p>
+  <xhtml:h4>Contents of the makefile</xhtml:h4>
+<xhtml:pre><xi:include href="data/Makefile" parse="text" /></xhtml:pre>
+  <xhtml:h4>The installer</xhtml:h4>
+<xhtml:p>The installer puts a script into /etc/init.d/ to start the webserver.
+Links to this script are put into the rc&lt;runlevel&gt;.d directories
+so that the webserver is started and stopped automatically.  The webserver
+is run as a non-priveilaged user for security purposes, the username
+for this user being a parameter in the install.  At the time the install
+is made the same information is used to make an uninstall script.</xhtml:p>
+<xhtml:h5>install.sh</xhtml:h5>
+<xhtml:pre><xi:include href="data/install.sh" parse="text" /> </xhtml:pre>
+  <xhtml:h4>Building for a different system</xhtml:h4>
+<xhtml:h3>Running the build in a test environment</xhtml:h3>
+  <xhtml:h4>Testing from a non-graphic build machine</xhtml:h4>
+<xhtml:h3>Running the installer</xhtml:h3>  
+</content>
+</page>

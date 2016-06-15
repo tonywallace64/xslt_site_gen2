@@ -1,0 +1,41 @@
+<!--
+File:    pagedata.xml
+Author:  Tony Wallace
+Purpose: Website definition file 
+-->
+<site xmlns:xf="http://www.w3.org/2002/xforms"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:xhtml="http://www.w3.org/1999/xhtml"
+xmlns:ax="abc">
+  <siteurl>www.tony.gen.nz/xml</siteurl>
+  <html_dir>html</html_dir>
+  <resources>
+    <copydir>html</copydir>
+  </resources>
+  <file_headers><![CDATA[<?xml version="1.0"?><!DOCTYPE html>]]></file_headers>
+  <pages>
+    <homepage>index.xhtml</homepage>
+    <navtype>mesh</navtype>
+    <contact-phone>Phone: 027 2203796</contact-phone>
+    <contact-email><xhtml:a href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></contact-email>
+    <banner_image><xhtml:img src="images/hw.png" left="250px" width="100%" /></banner_image>
+    <xi:include href="index.xml" parse="xml"/>
+  </pages>
+  <pages>
+    <homepage>index.xhtml</homepage>
+    <navtype>mesh</navtype>
+    <contact-phone>Phone: 027 2203796</contact-phone>
+    <contact-email><xhtml:a href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></contact-email>
+    <banner_image><xhtml:img src="images/hw.png" left="250px" width="100%" /></banner_image>
+    <xi:include href="intro.xml" parse="xml"/>
+  </pages>
+  <pages>
+    <homepage>index.xhtml</homepage>
+    <navtype>mesh</navtype>
+    <contact-phone>Phone: 027 2203796</contact-phone>
+    <contact-email><xhtml:a href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></contact-email>
+    <banner_image><img src="images/hw.png" left="250px" width="100%" /></banner_image>
+    <xi:include href="publickey.xml" parse="xml" />
+  </pages>    
+</site>
+ 

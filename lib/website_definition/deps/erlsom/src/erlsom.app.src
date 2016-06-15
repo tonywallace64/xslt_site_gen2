@@ -1,0 +1,8 @@
+%% AJW
+%% File edited to remove macros which caused it not to work
+%% with mad
+{application,erlsom,
+ [{description,"erlsom XSD parser"},
+  {registered, []},
+  {env, []},
+  {applications,[kernel,stdlib]}]}.

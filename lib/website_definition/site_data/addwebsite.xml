@@ -1,0 +1,64 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:ax="abc">
+  <name>Add_Website</name>
+  <title>Add_Website</title>
+  <source>addwebsite.xml</source>
+  <url>addwebsite.xhtml</url>
+  <keywords>xml</keywords>
+  <pageheader>Greenrose</pageheader>
+<content>
+<xhtml:p>
+ERRATA: Site rules need to be compiled and put into ebin directory
+as part of build procedure.  This is not currently part of make rules
+</xhtml:p>
+
+<xhtml:h1>Add Website</xhtml:h1>
+<xhtml:p>All code in this section is written in Erlang.  The webserver is cowboy.
+This page is not intended as a tutorial for either of these, rather
+it is intended to explain how to update the Cowboy webserver as used here.</xhtml:p>
+<xhtml:p>Edit the src/start.erl program and add the url along with the name of the
+configuration program.  The current start.erl is shown here for instruction.
+</xhtml:p>
+<xhtml:pre>
+<xi:include href="../deps/website_support/src/start.erl" parse="text"/>
+</xhtml:pre>
+<xhtml:p>
+The configuration programs are stored siteconf directory.  The purposes
+of the siteconf programs are twofold:</xhtml:p>
+<xhtml:ul>
+  <xhtml:li>To separate each site's configuration into a single file pertaining to that site for better code modularity,</xhtml:li>
+  <xhtml:li>To define handlers mapping URL's to handlers for that type of resource.</xhtml:li>
+</xhtml:ul>
+<xhtml:p>The handler for this site (which is currently static files only) is shown below.</xhtml:p>
+<xhtml:pre>
+<xi:include href="../deps/website_support/siteconf/tonygenconfig.erl" parse="text" />
+</xhtml:pre>
+<xhtml:p>The data files need to be copied into the resource directory which is clients/&lt;site_identifier&gt;/webroot/  If this directory does not exist for your site it needs to be made.  The site_identifier must match the path in the site configuration file.  In this case &quot;tonygen&quot;</xhtml:p>
+<xhtml:p>Now the site needs to be compiled and tested.  Compiling is done by running the command erl -make.</xhtml:p>
+<xhtml:p>Start the website by running erl and then executing start:go in the development web server's source directory.  If everything is right it should start okay.</xhtml:p>
+<xhtml:p>Next put an entry into the hosts file "/etc/hosts" to point back to the localhost.  What is done here is to make this a test host as in test.tony.gen.nz 127.0.0.1.  The easiest way to do this is to copy the /etc/hosts to the local directory, edit it there, and copy it back.</xhtml:p>
+<xhtml:p>Now the website should show in the test webserver</xhtml:p>
+<xhtml:h2>Deployment</xhtml:h2>
+<xhtml:p>The test site has been tested, not the task is to go live.  For a new
+website the DNS A record must be changed so that the site can be accessed
+by the public.  This is done through your Domain Name supplier's website.</xhtml:p>
+<xhtml:p>Next an erlang runtime build needs to be generated and deployed.</xhtml:p>
+<xhtml:p>Building is done with relx by Ninenines.</xhtml:p>
+<xhtml:p>From here my knowledge gets a bit thin, I will update this section
+as I learn more about using tar.gz to install a update.  This will
+be necessary when updating the production server.</xhtml:p>
+<xhtml:p>Prepare server by assigning static-ip in /etc/network/interfaces.
+Disable lid switch in /etc/systemd/logind if installing on laptop.</xhtml:p>
+
+<xhtml:h2>Including Static Pages Into the Build</xhtml:h2>
+
+<xhtml:p>The build process outlined above relies on <xhtml:em>make</xhtml:em>.  The process is as follows:</xhtml:p>
+<xhtml:ol>
+  <xhtml:li>Build the static site</xhtml:li>
+  <xhtml:li>Copy the pages to the client directory of the website support directory</xhtml:li>
+  <xhtml:li>Update the release version.  This is in relx.config.  There is some way of using overlays to do this in relx, but I don't know how to do it yet.</xhtml:li>
+  <xhtml:li>Make the release directory structure by running "make" in the support directory</xhtml:li>
+  <xhtml:li>Copy the static pages into release directory by running "make static-pages in the support directory</xhtml:li>
+  <xhtml:li>Make a release by compressing release directory. The release directory is the subdirectory containing the "lib" directory.</xhtml:li>
+</xhtml:ol>
+</content>
+</page>

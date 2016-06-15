@@ -1,0 +1,21 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <name>mnesia_apps</name>
+  <title>mnesia_apps</title>
+  <url>mnesia_apps.xhtml</url>
+  <keywords>xml</keywords>
+  <pageheader>Greenrose</pageheader>
+<ax:content xmlns:ax="abc">
+<xhtml:p>This page is an attempt to answer the question of how to deploy
+and update applications which contain a mnesia database component.</xhtml:p>
+<xhtml:p>This is clearly a prerequisite to deploying and updating websites
+containing dynamic content.  When mnesia starts, it attempts to load
+a database from the location specified by the -menisa-dir argument
+given when the erlang runtime system was started.  It clearly follows
+that this location must be built into the start scripts used for
+starting the system.  And these in turn must be supplied to the relx
+build system through the relx configuration file.</xhtml:p>
+<xhtml:p>It follows from this also that installing and updating such a system
+are two quite distinct operations.  During an install the schema must
+be created, and during updates the schema must be updated.</xhtml:p>
+</ax:content>
+</page>

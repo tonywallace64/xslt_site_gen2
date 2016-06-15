@@ -1,0 +1,17 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:ax="abc">
+  <name>Admin_todo</name>
+  <title>Admin_todo</title>
+  <source>admin_todo.xml</source>
+  <url>admin_todo.xhtml</url>
+  <keywords>xml</keywords>
+  <pageheader>Greenrose</pageheader>
+<content>
+<xhtml:ul>
+<xhtml:li>Understand sysadmin procedures for erlang applications
+that include mnesia databases.  Incorporate these into these
+web administration pages.</xhtml:li>
+<xhtml:li>Download a relx manual from ninenines</xhtml:li>
+<xhtml:li>Understand relx overlays</xhtml:li>
+</xhtml:ul>
+</content>
+</page>

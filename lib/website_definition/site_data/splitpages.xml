@@ -1,0 +1,41 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:ax="abc">
+  <name>split_pages</name>
+  <title>Split Pages</title>
+  <source>splitpages.xml</source>
+  <url>splitpages.xhtml</url>
+  <keywords>xml</keywords>
+  <pageheader>Greenrose</pageheader>
+<content>
+<xhtml:h2>Split Pages</xhtml:h2>
+<xhtml:p>My original idea was that the pagedata.xml would define the
+relationship between pages, and style information for the site.
+A build process would use this information to build the html
+webpages and each webpage would come out as a separate file.</xhtml:p>
+<xhtml:p>Upon reflection I recognise that the whole website
+could have been created as a single file and intrapage  
+links used to get around the page.  The purpose of this site
+is to document how it is not what it may have been, and
+this page splitting functionality is part of the existing design</xhtml:p>
+
+<xhtml:p>As XSLT 1.0 does not have the ability
+to save each page to a separate file, this is done by an external
+script written in Erlang.  Any suitable language could be used
+for this task.</xhtml:p>
+<xhtml:h3>splitpages.escript</xhtml:h3>
+<xhtml:p>In this case the make_web.xsl emits a line starting with
+"filename: FileNameValue" where a new file named FileNameValue
+should be started.
+</xhtml:p>
+<xhtml:p>The <xhtml:a href="splitpages.escript">splitpages</xhtml:a> source code can be viewed here.</xhtml:p>
+<xhtml:h3>The abc:file tag</xhtml:h3>
+<xhtml:p>Another approach to splitting the pages has been to define
+an "file" tag in the "abc" namespace.  The source code here
+is again written in erlang, but this time the input is read by
+the erlsom SAX parser.</xhtml:p>
+<xhtml:p>Most of the code is merely copying the input xml to the output.</xhtml:p>
+<xhtml:p>The <xhtml:a href="xslt_extn.erl">xslt_extn</xhtml:a> source code can be read here.</xhtml:p>
+<xhtml:p>This code also includes a parse="text" version of xinclude as the xmllint
+version of this appears to be broken.</xhtml:p>
+</content>
+</page>

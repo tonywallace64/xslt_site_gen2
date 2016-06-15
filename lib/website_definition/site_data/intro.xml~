@@ -1,0 +1,59 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ax="abc">
+  <name>intro</name>
+  <title>XML Sojourner's Journey</title>
+  <source>intro.xml</source>
+  <url>intro.xhtml</url>
+  <keywords>xml</keywords>
+  <pageheader>Greenrose</pageheader>
+<content>
+<xh:p>This is the introduction page to my xml diary.  It is not
+a diary in the sense of a chronology.  It is not a book in
+that it will never be complete.  It is not a blog as I ask
+no feedback, look for none and expect none.</xh:p>
+<xh:p>Rather it documents my journeys in XML land.  One of
+the frontiers of the web.  Many have gone before me and
+blazed the trail, but alas it is a confusing place for
+newcommers, and I hope that this work, incomplete (and
+possibly in places inaccurate) may help the sojourners
+who wander this trail after me.</xh:p>
+<xh:p>The question remains as to why would someone choose
+this journey?</xh:p>
+<xh:ul>
+  <xh:li><xh:em>XML is standard.</xh:em> It is a language understood
+throughout the computing world.</xh:li>
+<xh:li><xh:em>XML is expressive.</xh:em> XML naturally expresses complex
+data structures and is useful for a huge number of applications
+from word processors to graphics editiors.</xh:li>
+<xh:li><xh:em>Standard XML tools</xh:em> allow complex analysis of the
+data contained in XML files, and the transformation of XML
+data between formats</xh:li>
+<xh:li><xh:em>Communication.</xh:em> XML is used to communicate data
+between systems for e-commerce.</xh:li>
+<xh:li><xh:em>XRX </xh:em>XML can facilitate the storage of data without
+transforming it to another form as is usual in relation database
+applications.</xh:li>
+</xh:ul>
+
+<xh:p>Yes there is gold in this land, but it comes not easily.
+In my wanderings I have frequently found if I did not
+understand a concept futher progress in a different area
+became impossible, and that there is an order in which
+topics are to be followed, so this journey is a trail
+and the reader is advised to follow the track in order
+to not get lost.</xh:p>
+<xh:p>Consequently there is no attempt in this work to deal
+with any of these technologies in a comprehensive manner.
+That work has been done by others.  Rather it is an attempt
+to guide through these technologies in a systematic way.
+</xh:p>
+<xh:p>Indeed my journey has been guided by a vision, the same
+vision that prompted Dan Cleary and others with XRX.  To
+move away from the continual construction and deconstruction
+of data structures as usual with application development.
+To utilise the Web as the main interface.  To use standard
+tools  that are free.  To keep related data together rather than normalised
+into separate tables. To build systems that are maintainable,
+scalable, and parallel processor friendly.</xh:p>
+<xh:p>This quest is far from over, but I gladly share my wanderings.</xh:p>
+</content>
+</page>

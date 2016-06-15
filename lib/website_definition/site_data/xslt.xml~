@@ -1,0 +1,49 @@
+<page xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ax="abc">
+  <name>xslt</name>
+  <title>xslt</title>
+  <url>xslt.xhtml</url>
+  <keywords>xml</keywords>
+  <pageheader>Greenrose</pageheader>
+<ax:content xmlns:ax="abc">
+<xhtml:h2>What is xslt?</xhtml:h2>
+<xhtml:p>XSLT is an XML language designed to convert XML documents to other XML formats,
+expecially XSL-FO.
+XSL-FO is a stylesheet language, often used for formatting documents
+prior to conversion to PDF. It can be used to generate other formats and is useful to convert
+arbitary XML documents into XHTML.</xhtml:p>
+<xhtml:h2>Getting Started</xhtml:h2>
+<example>
+<title>A simple XSLT stylesheet</title>
+<ax:content xmlns:ax="abc">
+<xhtml:pre>
+<![CDATA[
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+  <xsl:template match="text()"/>
+  <xsl:template match='/site'>
+    <xsl:for-each select="./pages/page">
+      <xsl:choose>
+	<xsl:when test="ancestor::pages[navtype='mesh']">
+	  Found
+	</xsl:when>
+      </xsl:choose>
+    </xsl:for-each>
+  </xsl:template>
+</xsl:stylesheet>
+]]>
+</xhtml:pre>
+<xhtml:p>The first line declares this XML to be an xslt stylesheet.  Note the use of the namespace.  The second line rule overrides default text node processing.  The default is to output text nodes.  This rule says do nothing. Note the match expressions on the &lt;xsl:template&gt; are xpath expressions.  The third line matches a root element "site". Inside this element this root element becomes the self() or current node.  On the next line the for-each iterates through each /site/pages/page node, each node in turn becoming the self node.  For each page having an ancestor pages element, containing an element navtype whose text value is "mesh", the value Found is output.  The reader should also note the test attribute of the when element is set to an xpath expression.   An empty nodeset is false.</xhtml:p>
+</ax:content>
+</example>
+<xhtml:p>The above example shows the interplay of xml technologies, XPATH, XSLT and 
+XML Namespaces.  Once again it emphasises the need to grasp the basics such
+as Namespaces and XPATH before moving onto other technologies such as XSLT.</xhtml:p>
+<xhtml:p>There is much more to XSLT than the simple example shown here, the reader
+is asked to do check out some of the online tutorials and download the XSLT standard.</xhtml:p>
+<xhtml:h2>XSLT processors</xhtml:h2>
+<xhtml:p>Many XSLT processors only process version 1.0 XSLT, which uses XPATH 1.0.  Support for this standard is however widespread.</xhtml:p>
+<xhtml:ul>
+<xhtml:li><xhtml:p>Firefox supports XSLT 1.O.  To transform your document in the browser, insert a processing instruction such as <![CDATA[<?xml-stylesheet href="xsltforms/xsltforms.xsl" type="text/xsl"?>]]> at the top of the file.</xhtml:p></xhtml:li>
+<xhtml:li><xhtml:p>The linux command xsltproc also support XSLT 1.0.</xhtml:p></xhtml:li>
+</xhtml:ul>  
+</ax:content>
+</page>

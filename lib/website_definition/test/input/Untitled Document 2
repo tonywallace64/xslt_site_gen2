@@ -1,0 +1,5 @@
+<?xml version="1.0" >
+<root
+	xmlns:xi="www.w3c.org/2002/XInclude">
+  <xi:include filename="nosuchfile.xml/>
+</root>

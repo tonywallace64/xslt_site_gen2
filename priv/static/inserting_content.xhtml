@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html><xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:exslt="http://exslt.org/strings">
+  <xhtml:head>
+    <xhtml:meta name="Keywords" content=""/>
+    <xhtml:title>Insert Content</xhtml:title>
+    <xhtml:meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <xhtml:style type="text/css">
+	  body {color:blue;}  
+	  p  {line-height=130%;}
+	  h1 {text-align:center;}
+	  h2 {text-align:center;}
+	  h3 {text-align:center;}
+	  pre { color:#800080;}
+	  a:link {color:#0000FF;}
+	  a:visited {color:#C0C000;}
+	  nav {
+	    background-image:url(images/grgcleft2.png);
+	    position: absolute;
+	    top :0px;
+	    bottom:0;
+	    left: 0;
+	    width: 240px;
+	    }
+	 section {
+	    position: relative;
+	    margin-left: 250px;
+	    }
+	</xhtml:style>
+  </xhtml:head>
+  <xhtml:body>
+    <xhtml:div id="navbar"/>
+    <xhtml:section>
+      <xhtml:a href="index.xhtml">
+        <xhtml:img xmlns:xf="http://www.w3.org/2002/xforms" src="images/hw.png" left="250px" width="100%"/>
+      </xhtml:a>
+      <xhtml:br/>
+      <xhtml:h2 xmlns:ax="abc">Inserting Content</xhtml:h2>
+      <xhtml:p xmlns:ax="abc">Xml include is used to copy pages into the XML dataset at
+appropriate places.  This is done in the <xhtml:a href="static.html#xslt_extn">xslt_extn</xhtml:a> sax parser.</xhtml:p>
+      <xhtml:h3 xmlns:ax="abc">Xml insert code</xhtml:h3>
+      <xhtml:pre xmlns:ax="abc">
+insert_file_xml(Filename,State) -&gt;
+    {ok,I} = maps:find(fileinclusions,State),
+    State2 = case ordsets:is_element(Filename,I) of
+	true -&gt;
+	    throw("recursive xinclude on file "++Filename);
+	false -&gt;
+	    State#{fileinclusions =&gt; ordsets:add_element(Filename,I)}
+    end,
+    {ok,Str} = file:read_file(Filename),
+    erlsom:parse_sax(Str,State2,fun doevent/2).
+</xhtml:pre>
+      <xhtml:p xmlns:ax="abc">
+The bit of the insert_file_xml that does the work are the two lines at the bottom that read the file and then recursively call the erlsom:parse_sax procedure.  This allows xml file inclusions to be nested.</xhtml:p>
+      <xhtml:h3 xmlns:ax="abc">Text insert code</xhtml:h3>
+      <xhtml:pre xmlns:ax="abc">
+-spec insert_file_text(string(), integer()) -&gt; ok.
+insert_file_text(Filename,FD) -&gt; 
+    {ok,Str} = file:read_file(Filename),
+    Str2 = xml_output_escaping(binary_to_list(Str)),
+    io:fwrite(FD,"~s",["&lt;pre&gt;"]),
+    io:fwrite(FD,"~s",[Str2]),
+    io:fwrite(FD,"~s",["&lt;/pre&gt;"]).
+    </xhtml:pre>
+      <xhtml:p xmlns:ax="abc">
+This code reads the file, escapes all the xml characters, and writes it to output inside some &lt;pre&gt; tags to preserve the file formatting.
+</xhtml:p>
+    </xhtml:section>
+    <xhtml:script>
+//  test1
+  function writeNavbar(Contents)
+  {
+  document.getElementById("navbar").innerHTML=Contents;
+  };
+  function httpGetAsync(theUrl, callback)
+  {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() { 
+        if (xmlHttp.readyState == 4 &amp;&amp; xmlHttp.status == 200)
+            callback(xmlHttp.responseText);
+    }
+    xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+    xmlHttp.send(null);
+  };
+  httpGetAsync(
+//
+  "main_nav.xml",writeNavbar);</xhtml:script>
+  </xhtml:body>
+</xhtml:html>

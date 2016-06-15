@@ -1,0 +1,49 @@
+<!--
+File:    pagedata.xml
+Author:  Tony Wallace
+Purpose: Website definition file 
+-->
+<site xmlns:xf="http://www.w3.org/2002/xforms"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <siteurl>www.tony.gen.nz/xml</siteurl>
+  <html_dir>html</html_dir>
+  <resources>
+    <copydir>html</copydir>
+  </resources>
+  <html_header><![CDATA[<!DOCTYPE html>]]></html_header>
+  <pages id="main">
+    <homepage>index.xhtml</homepage>
+    <navtype>mesh</navtype>
+    <contact-phone>Phone: 027 2203796</contact-phone>
+    <contact-email><xhtml:a href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></contact-email>
+    <banner_image><xhtml:img src="images/hw.png" left="250px" width="100%" /></banner_image>
+    <xi:include href="index.xml" parse="xml"/>
+    <xi:include href="intro.xml" parse="xml"/>
+    <xi:include href="whatsxml.xml" parse="xml"/>
+    <xi:include href="xmlprocessing.xml" parse="xml"/>
+    <xi:include href="namespaces.xml"  parse="xml"/>
+    <xi:include href="xpath.xml"  parse="xml"/>
+    <xi:include href="xslt.xml" parse="xml"/>
+    <xi:include href="staticsite.xml" parse="xml"/>
+    <xi:include href="validation.xml" parse="xml"/>
+    <xi:include href="splitpages.xml" parse="xml" />
+    <xi:include href="inserting_content.xml" parse="xml" />
+    <xi:include href="build.xml" parse="xml" />
+    <xi:include href="future_development.xml" parse="xml" />
+    <xi:include href="rest.xml" parse="xml" />
+    <xi:include href="video.xml" parse="xml" />
+  </pages>
+  <pages id="admin">
+    <homepage>index.xhtml</homepage>
+    <navtype>mesh</navtype>
+    <contact-phone>Phone: 027 2203796</contact-phone>
+    <contact-email><xhtml:a href="mailto:tony@tony.gen.nz">Email: tony@tony.gen.nz</xhtml:a></contact-email>
+    <banner_image><xhtml:img src="images/hw.png" left="250px" width="100%" /></banner_image>
+    <xi:include href="publickey.xml" parse="xml" />
+    <xi:include href="addwebsite.xml" parse="xml" />
+    <xi:include href="admin_todo.xml" parse="xml" />
+    <xi:include href="admin_troubleshooting.xml" parse="xml" />
+  </pages>
+</site>
+ 
